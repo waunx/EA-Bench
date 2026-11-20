@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "url": "https://github.com/waunx/EA-Bench/releases/download/v0.1.0/ea-bench-data-v0.1.0.tar.gz",
+  "sha256": "05460fd0c1d1377c81bebc5eb8b937874d2b669699c5268e1592d5b56791bd9e",
+  "files": 3247,
+  "bytes": 195635728,
+  "conditions": 232,
+  "base_tasks": 63
+}

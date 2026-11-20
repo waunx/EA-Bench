@@ -1,0 +1,5 @@
+{
+  "solver": {"model": "YOUR_SOLVER_MODEL", "base_url": "https://api.openai.com/v1", "api_key_env": "EA_SOLVER_API_KEY", "wire_api": "chat", "max_tokens": 16384, "timeout": 180},
+  "user": {"model": "YOUR_USER_MODEL", "base_url": "https://api.openai.com/v1", "api_key_env": "EA_USER_API_KEY", "wire_api": "chat", "max_tokens": 16384, "timeout": 180},
+  "judge": {"model": "YOUR_JUDGE_MODEL", "base_url": "https://api.openai.com/v1", "api_key_env": "EA_JUDGE_API_KEY", "wire_api": "chat", "max_tokens": 16384, "timeout": 180}
+}

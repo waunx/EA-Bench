@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the EA-Bench paper when using this benchmark."
+title: "EA-Bench: Measuring Information and Action Efficiency under Imperfect Instructions"
+authors:
+  - family-names: Wan
+    given-names: Xu
+  - family-names: Xu
+    given-names: Wenyue
+  - family-names: Zhao
+    given-names: Shenjie
+repository-code: "https://github.com/waunx/EA-Bench"
+version: 0.1.0
+license: MIT
+type: software

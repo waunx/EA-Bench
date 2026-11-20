@@ -1,0 +1,39 @@
+"""Host wrapper for isolated AW08 native effect replay."""
+from ea_bench.paths import APPWORLD_ROOT, APPWORLD_PYTHON
+import hashlib,json,os,subprocess,uuid
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2]
+
+def replay(variant,answers,actions,output):
+    output=Path(output).resolve();output.mkdir(parents=True,exist_ok=False)
+    packet=ROOT/'data/expanded/AW08/variants'/variant
+    request=dict(variant=variant,answers=answers,actions=actions,experiment_name='aw08-bound-'+uuid.uuid4().hex[:12],
+                 packet_hashes={str(p.relative_to(packet)):hashlib.sha256(p.read_bytes()).hexdigest()
+                                for p in packet.rglob('*') if p.is_file()})
+    (output/'request.json').write_text(json.dumps(request,indent=2)+'\n')
+    env=dict(os.environ,APPWORLD_ROOT=APPWORLD_ROOT,PYTHONPATH=str(ROOT),
+             OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',IPYTHONDIR='/tmp/ea-native-ipython')
+    worker=Path(__file__).with_name('aw08_worker.py')
+    with (output/'worker.log').open('w') as log:
+        command=[APPWORLD_PYTHON,str(worker)]
+        command+=['--request',str(output/'request.json'),'--output',str(output/'result.json')]
+        p=subprocess.run(command,cwd=APPWORLD_ROOT,env=env,stdout=log,stderr=subprocess.STDOUT,timeout=180)
+    if p.returncode:raise RuntimeError('Native AW08 worker failed; '+str(output/'worker.log'))
+    result=json.loads((output/'result.json').read_text())
+    result['source_hashes']={p.name:hashlib.sha256(p.read_bytes()).hexdigest()
+                            for p in Path(__file__).parent.glob('aw08_*.py')}
+    (output/'result.json').write_text(json.dumps(result,indent=2)+'\n')
+    return result
+
+def captured(events):
+    return [e['action'] for e in events if isinstance(e.get('action'),dict)
+            and e['action'].get('tool')=='call'
+            and e['action'].get('name') in {'create_request','cancel_request'}
+            and 'error' not in e['reply'] and e.get('before')!=e.get('after')]
+
+def evaluate_engine(engine,output):
+    result=replay(engine.variant,engine.answers,captured(engine.events),output)
+    return dict(status='passed' if result['native_passed'] else 'failed',
+                native_api_actions=len(result['native_calls']),original_algorithm_calls=0,
+                native_checks=result['native_checks'],evidence=str(Path(output)/'result.json'),
+                layer='actual_AppWorld_API_and_DB_checks_on_authored_supplemental_world')
