@@ -62,32 +62,37 @@ def run(entry, output, max_actions):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest='command', required=True)
-    commands.add_parser('list')
+    p = commands.add_parser('list')
+    p.add_argument('--track', type=str.lower, choices=('easy', 'hard'),
+                   help='List only the selected benchmark track')
     commands.add_parser('verify')
     commands.add_parser('check-references')
-    p = commands.add_parser('run');p.add_argument('--episode', required=True);p.add_argument('--config', required=True)
+    p = commands.add_parser('run');p.add_argument('--episode', required=True, help='easy:<task>:<condition> or hard:<task>:<condition>');p.add_argument('--config', required=True)
     p.add_argument('--output', required=True, type=Path);p.add_argument('--max-actions', type=int, default=100)
-    p = commands.add_parser('grade');p.add_argument('--episode', required=True);p.add_argument('--config', required=True)
+    p = commands.add_parser('grade');p.add_argument('--episode', required=True, help='hard:<task>:<condition>');p.add_argument('--config', required=True)
     p.add_argument('--artifacts', required=True, type=Path);p.add_argument('--output', required=True, type=Path)
     args = parser.parse_args()
     if args.command == 'list':
-        result = {'base_tasks': len({x['case_key'] for x in entries()}), 'conditions':len(entries()),
-                  'tracks': dict(Counter(x['track'] for x in entries())),
-                  'episodes': [{k:x[k] for k in ('id','track','group')} for x in entries()]}
+        selected = [e for e in entries() if args.track is None or e['track'].lower() == args.track]
+        result = {'base_tasks': len({x['case_key'] for x in selected}), 'conditions':len(selected),
+                  'tracks': dict(Counter(x['track'] for x in selected)),
+                  'episodes': [{k:x[k] for k in ('id','track','group')} for x in selected]}
     elif args.command == 'verify':
         for entry in entries():verify_entry(entry)
         result = {'status':'passed', 'conditions':len(entries())}
     elif args.command == 'check-references':
         result = reference_check()
     else:
-        load_config(args.config);entry = get_entry(args.episode)
+        entry = get_entry(args.episode)
+        if args.command == 'grade' and entry['track'] != 'Hard':
+            parser.error('grade accepts Hard artifact tasks; use run for Easy tasks')
+        load_config(args.config)
         if args.command == 'run':
             if args.max_actions <= 0:parser.error('--max-actions must be positive')
             result = run(entry,args.output,args.max_actions)
             from .metrics import finalize
             result = finalize(entry,args.output,result)
         else:
-            if not entry['case'].startswith('JB') or entry['cohort']!='expanded':parser.error('grade accepts expanded JobBench artifact tasks')
             verify_entry(entry)
             from integrations.packet_stages.authored import SOURCE,read_json
             oracle=read_json(SOURCE/entry['case']/'private/oracle.json');spec=oracle['variants'][entry['variant']]

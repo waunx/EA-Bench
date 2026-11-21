@@ -49,12 +49,6 @@ JSON files or commit generated runs.
 export EA_SOLVER_API_KEY='your-key'
 export EA_USER_API_KEY='your-key'
 export EA_JUDGE_API_KEY='your-key'
-python -m ea_bench list
-python -m ea_bench run \
-  --episode legacy:procurement:M2 \
-  --config config.local.json \
-  --output outputs/procurement-M2 \
-  --max-actions 100
 ```
 
 `wire_api` supports `chat` (Chat Completions-compatible) and `responses` for the
@@ -68,44 +62,76 @@ Each invocation creates a new output directory. Failures and infrastructure
 errors are retained as separate outcomes; a transport error is not a scored
 incorrect answer. Transport retries do not select the best task attempt.
 
-## Application and artifact tasks
+## Easy track
 
-The 15 application cases use their case-specific state engines. Native AppWorld
-replay additionally requires the upstream AppWorld environment and data. Set
-`APPWORLD_ROOT` to that installation and `EA_APPWORLD_PYTHON` to its interpreter.
-WorkBench reference templates and the required public JobBench references are
-included in the data bundle. See [third-party attribution](THIRD_PARTY.md).
-
-The 30 JobBench cases use their original task/rubric bindings and case-specific
-artifact checks. **Linux, bubblewrap, LibreOffice, and Poppler** are required for
-isolated artifact execution and rendering. `Dockerfile` supplies the general
-analysis environment. Native AppWorld must still be installed separately.
-The optional historical pinned Calc runtime can be configured separately; the
-release does not claim bit-identical rendering across LibreOffice versions.
+Easy contains **33 base tasks and 147 conditions**: 18 closed-state tasks and
+15 application tasks. List and run them with the `easy` prefix:
 
 ```bash
-python -m ea_bench run \
-  --episode expanded:WB12:R1 \
-  --config config.local.json \
-  --output outputs/WB12-R1
+python -m ea_bench list --track easy
 
 python -m ea_bench run \
-  --episode expanded:JB17:M1 \
+  --episode easy:procurement:M2 \
   --config config.local.json \
-  --output outputs/JB17-M1
+  --output outputs/easy/procurement-M2 \
+  --max-actions 100
+
+python -m ea_bench run \
+  --episode easy:WB12:R1 \
+  --config config.local.json \
+  --output outputs/easy/WB12-R1
+```
+
+The application tasks use their case-specific state engines. Native AppWorld
+replay additionally requires the upstream AppWorld environment and data. Set
+`APPWORLD_ROOT` to that installation and `EA_APPWORLD_PYTHON` to its interpreter.
+WorkBench reference templates are included in the data bundle.
+Easy tasks are evaluated during `run` against their resulting task state.
+
+## Hard track
+
+Hard contains **30 base tasks and 85 conditions**. These JobBench tasks use their
+original task/rubric bindings and case-specific artifact checks. List, run, or
+separately grade submitted artifacts with the `hard` prefix:
+
+```bash
+python -m ea_bench list --track hard
+
+python -m ea_bench run \
+  --episode hard:JB17:M1 \
+  --config config.local.json \
+  --output outputs/hard/JB17-M1
 
 python -m ea_bench grade \
-  --episode expanded:JB17:full \
+  --episode hard:JB17:full \
   --config config.local.json \
   --artifacts path/to/submitted/files \
-  --output outputs/JB17-grade
+  --output outputs/hard/JB17-grade
 ```
+
+**Linux, bubblewrap, LibreOffice, and Poppler** are required for isolated
+artifact execution and rendering. `Dockerfile` supplies the general analysis
+environment. Public JobBench references are included in the data bundle.
+See [third-party attribution](THIRD_PARTY.md). The optional historical pinned
+Calc runtime can be configured separately; the release does not claim
+bit-identical rendering across LibreOffice versions.
 
 Missing native or grading dependencies are reported as infrastructure errors;
 these cases are not silently evaluated at a weaker validation layer. `grade`
 expects the associated private user records alongside the checker directory
 when grading artifacts from imperfect-information runs. A new Full-condition
 artifact can be graded without clarification records.
+
+### Episode identifiers
+
+The public format is `<track>:<task>:<condition>`, with `easy` or `hard` as the
+track. `python -m ea_bench list` lists all 232 retained conditions. Use the listed
+condition names, such as `full`, `M1`, or `R1`; not every task has every condition.
+Outputs record the canonical Easy/Hard episode identifier.
+
+The previous `legacy:...` and `expanded:...` identifiers remain accepted for
+compatibility. They describe internal runtime cohorts, not difficulty tracks:
+`expanded` contains both Easy application tasks and Hard artifact tasks.
 
 ## Information boundaries and outputs
 

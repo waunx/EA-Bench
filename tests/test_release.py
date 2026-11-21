@@ -1,8 +1,11 @@
 import importlib
+import contextlib
+import io
 import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 from ea_bench.client import ProviderError, parse_json
 from ea_bench.registry import entries, get_entry, verify_entry
 from ea_bench.paths import DATA
@@ -16,6 +19,43 @@ class ProtocolTests(unittest.TestCase):
         self.assertEqual(len({r['case_key'] for r in rows}),63)
         self.assertEqual(sum(r['track']=='Easy' for r in rows),147)
         self.assertEqual(sum(r['track']=='Hard' for r in rows),85)
+
+    def test_track_ids_and_previous_aliases(self):
+        rows = entries()
+        self.assertEqual(len({r['id'] for r in rows}), 232)
+        for entry in rows:
+            with self.subTest(episode=entry['id']):
+                self.assertEqual(entry['id'], f"{entry['track'].lower()}:{entry['case']}:{entry['variant']}")
+                self.assertEqual(get_entry(entry['id']), entry)
+                self.assertEqual(get_entry(f"{entry['cohort']}:{entry['case']}:{entry['variant']}"), entry)
+        for episode in ('hard:WB12:R1', 'easy:JB17:M1', 'easy:unknown:full'):
+            with self.subTest(episode=episode), self.assertRaises(ValueError):
+                get_entry(episode)
+
+    def test_list_by_track(self):
+        from ea_bench.cli import main
+        for track, tasks, conditions in [('easy', 33, 147), ('hard', 30, 85)]:
+            with self.subTest(track=track), patch('sys.argv', ['ea_bench', 'list', '--track', track]):
+                output = io.StringIO()
+                with contextlib.redirect_stdout(output):
+                    main()
+                result = json.loads(output.getvalue())
+                self.assertEqual(result['base_tasks'], tasks)
+                self.assertEqual(result['conditions'], conditions)
+                self.assertEqual(result['tracks'], {track.title(): conditions})
+                self.assertTrue(all(e['id'].startswith(track + ':') for e in result['episodes']))
+
+    def test_easy_cannot_use_artifact_grade(self):
+        from ea_bench.cli import main
+        args = ['ea_bench', 'grade', '--episode', 'easy:WB12:R1', '--config', 'unused.json',
+                '--artifacts', 'unused', '--output', 'unused']
+        error = io.StringIO()
+        with patch('sys.argv', args), patch('ea_bench.cli.load_config') as config:
+            with contextlib.redirect_stderr(error), self.assertRaises(SystemExit) as raised:
+                main()
+            self.assertEqual(raised.exception.code, 2)
+            config.assert_not_called()
+        self.assertIn('grade accepts Hard artifact tasks', error.getvalue())
 
     def test_json_action_boundary(self):
         self.assertEqual(parse_json('```json\n{"tool":"list_files"}\n```'),{'tool':'list_files'})

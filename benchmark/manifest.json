@@ -5,7 +5,7 @@
   "conditions": 232,
   "episodes": [
     {
-      "id": "legacy:workforce:full",
+      "id": "easy:workforce:full",
       "cohort": "legacy",
       "case": "workforce",
       "case_key": "LEGACY_workforce",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "legacy:workforce:M2",
+      "id": "easy:workforce:M2",
       "cohort": "legacy",
       "case": "workforce",
       "case_key": "LEGACY_workforce",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "legacy:workforce:C2",
+      "id": "easy:workforce:C2",
       "cohort": "legacy",
       "case": "workforce",
       "case_key": "LEGACY_workforce",
@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": "legacy:procurement:full",
+      "id": "easy:procurement:full",
       "cohort": "legacy",
       "case": "procurement",
       "case_key": "LEGACY_procurement",
@@ -228,7 +228,7 @@
       }
     },
     {
-      "id": "legacy:procurement:M2",
+      "id": "easy:procurement:M2",
       "cohort": "legacy",
       "case": "procurement",
       "case_key": "LEGACY_procurement",
@@ -287,7 +287,7 @@
       }
     },
     {
-      "id": "legacy:procurement:C1",
+      "id": "easy:procurement:C1",
       "cohort": "legacy",
       "case": "procurement",
       "case_key": "LEGACY_procurement",
@@ -346,7 +346,7 @@
       }
     },
     {
-      "id": "legacy:training:full",
+      "id": "easy:training:full",
       "cohort": "legacy",
       "case": "training",
       "case_key": "LEGACY_training",
@@ -398,7 +398,7 @@
       }
     },
     {
-      "id": "legacy:training:M1",
+      "id": "easy:training:M1",
       "cohort": "legacy",
       "case": "training",
       "case_key": "LEGACY_training",
@@ -455,7 +455,7 @@
       }
     },
     {
-      "id": "legacy:training:C1",
+      "id": "easy:training:C1",
       "cohort": "legacy",
       "case": "training",
       "case_key": "LEGACY_training",
@@ -514,7 +514,7 @@
       }
     },
     {
-      "id": "legacy:reconciliation:full",
+      "id": "easy:reconciliation:full",
       "cohort": "legacy",
       "case": "reconciliation",
       "case_key": "LEGACY_reconciliation",
@@ -565,7 +565,7 @@
       }
     },
     {
-      "id": "legacy:reconciliation:M1",
+      "id": "easy:reconciliation:M1",
       "cohort": "legacy",
       "case": "reconciliation",
       "case_key": "LEGACY_reconciliation",
@@ -621,7 +621,7 @@
       }
     },
     {
-      "id": "legacy:reconciliation:C2",
+      "id": "easy:reconciliation:C2",
       "cohort": "legacy",
       "case": "reconciliation",
       "case_key": "LEGACY_reconciliation",
@@ -683,7 +683,7 @@
       }
     },
     {
-      "id": "legacy:donor_registry:full",
+      "id": "easy:donor_registry:full",
       "cohort": "legacy",
       "case": "donor_registry",
       "case_key": "LEGACY_donor_registry",
@@ -735,7 +735,7 @@
       }
     },
     {
-      "id": "legacy:donor_registry:M1",
+      "id": "easy:donor_registry:M1",
       "cohort": "legacy",
       "case": "donor_registry",
       "case_key": "LEGACY_donor_registry",
@@ -792,7 +792,7 @@
       }
     },
     {
-      "id": "legacy:donor_registry:C2",
+      "id": "easy:donor_registry:C2",
       "cohort": "legacy",
       "case": "donor_registry",
       "case_key": "LEGACY_donor_registry",
@@ -855,7 +855,7 @@
       }
     },
     {
-      "id": "legacy:inventory_replenishment:full",
+      "id": "easy:inventory_replenishment:full",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -907,7 +907,7 @@
       }
     },
     {
-      "id": "legacy:inventory_replenishment:M1",
+      "id": "easy:inventory_replenishment:M1",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -964,7 +964,7 @@
       }
     },
     {
-      "id": "legacy:inventory_replenishment:C1",
+      "id": "easy:inventory_replenishment:C1",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -1023,7 +1023,7 @@
       }
     },
     {
-      "id": "legacy:inventory_replenishment:C3",
+      "id": "easy:inventory_replenishment:C3",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -1090,7 +1090,7 @@
       }
     },
     {
-      "id": "legacy:aw_note_mail:full",
+      "id": "easy:aw_note_mail:full",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1141,7 +1141,7 @@
       }
     },
     {
-      "id": "legacy:aw_note_mail:M1",
+      "id": "easy:aw_note_mail:M1",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1197,7 +1197,7 @@
       }
     },
     {
-      "id": "legacy:aw_note_mail:M2",
+      "id": "easy:aw_note_mail:M2",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1255,7 +1255,7 @@
       }
     },
     {
-      "id": "legacy:aw_note_mail:C3",
+      "id": "easy:aw_note_mail:C3",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1321,7 +1321,7 @@
       }
     },
     {
-      "id": "legacy:aw_note_mail:C4",
+      "id": "easy:aw_note_mail:C4",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1391,7 +1391,7 @@
       }
     },
     {
-      "id": "legacy:aw_artist_follow:full",
+      "id": "easy:aw_artist_follow:full",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1443,7 +1443,7 @@
       }
     },
     {
-      "id": "legacy:aw_artist_follow:M1",
+      "id": "easy:aw_artist_follow:M1",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1500,7 +1500,7 @@
       }
     },
     {
-      "id": "legacy:aw_artist_follow:M2",
+      "id": "easy:aw_artist_follow:M2",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1559,7 +1559,7 @@
       }
     },
     {
-      "id": "legacy:aw_artist_follow:C1",
+      "id": "easy:aw_artist_follow:C1",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1618,7 +1618,7 @@
       }
     },
     {
-      "id": "legacy:aw_artist_follow:C2",
+      "id": "easy:aw_artist_follow:C2",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1681,7 +1681,7 @@
       }
     },
     {
-      "id": "legacy:aw_trip_checkout:full",
+      "id": "easy:aw_trip_checkout:full",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1733,7 +1733,7 @@
       }
     },
     {
-      "id": "legacy:aw_trip_checkout:M1",
+      "id": "easy:aw_trip_checkout:M1",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1790,7 +1790,7 @@
       }
     },
     {
-      "id": "legacy:aw_trip_checkout:M2",
+      "id": "easy:aw_trip_checkout:M2",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1849,7 +1849,7 @@
       }
     },
     {
-      "id": "legacy:aw_trip_checkout:C2",
+      "id": "easy:aw_trip_checkout:C2",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1912,7 +1912,7 @@
       }
     },
     {
-      "id": "legacy:aw_trip_checkout:C4",
+      "id": "easy:aw_trip_checkout:C4",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1983,7 +1983,7 @@
       }
     },
     {
-      "id": "legacy:aw_flight_alarms:full",
+      "id": "easy:aw_flight_alarms:full",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2035,7 +2035,7 @@
       }
     },
     {
-      "id": "legacy:aw_flight_alarms:M1",
+      "id": "easy:aw_flight_alarms:M1",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2092,7 +2092,7 @@
       }
     },
     {
-      "id": "legacy:aw_flight_alarms:M2",
+      "id": "easy:aw_flight_alarms:M2",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2151,7 +2151,7 @@
       }
     },
     {
-      "id": "legacy:aw_flight_alarms:M3",
+      "id": "easy:aw_flight_alarms:M3",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2212,7 +2212,7 @@
       }
     },
     {
-      "id": "legacy:aw_flight_alarms:C2",
+      "id": "easy:aw_flight_alarms:C2",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2275,7 +2275,7 @@
       }
     },
     {
-      "id": "legacy:aw_flight_alarms:C3",
+      "id": "easy:aw_flight_alarms:C3",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2342,7 +2342,7 @@
       }
     },
     {
-      "id": "legacy:aw_music_mail:full",
+      "id": "easy:aw_music_mail:full",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2393,7 +2393,7 @@
       }
     },
     {
-      "id": "legacy:aw_music_mail:M1",
+      "id": "easy:aw_music_mail:M1",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2449,7 +2449,7 @@
       }
     },
     {
-      "id": "legacy:aw_music_mail:M2",
+      "id": "easy:aw_music_mail:M2",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2507,7 +2507,7 @@
       }
     },
     {
-      "id": "legacy:aw_music_mail:C4",
+      "id": "easy:aw_music_mail:C4",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2577,7 +2577,7 @@
       }
     },
     {
-      "id": "legacy:aw_order_returns:full",
+      "id": "easy:aw_order_returns:full",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2628,7 +2628,7 @@
       }
     },
     {
-      "id": "legacy:aw_order_returns:M1",
+      "id": "easy:aw_order_returns:M1",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2684,7 +2684,7 @@
       }
     },
     {
-      "id": "legacy:aw_order_returns:M3",
+      "id": "easy:aw_order_returns:M3",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2744,7 +2744,7 @@
       }
     },
     {
-      "id": "legacy:aw_order_returns:C1",
+      "id": "easy:aw_order_returns:C1",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2802,7 +2802,7 @@
       }
     },
     {
-      "id": "legacy:aw_order_returns:C2",
+      "id": "easy:aw_order_returns:C2",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2864,7 +2864,7 @@
       }
     },
     {
-      "id": "legacy:wb_mail_cleanup:full",
+      "id": "easy:wb_mail_cleanup:full",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -2914,7 +2914,7 @@
       }
     },
     {
-      "id": "legacy:wb_mail_cleanup:M1",
+      "id": "easy:wb_mail_cleanup:M1",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -2969,7 +2969,7 @@
       }
     },
     {
-      "id": "legacy:wb_mail_cleanup:M3",
+      "id": "easy:wb_mail_cleanup:M3",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -3028,7 +3028,7 @@
       }
     },
     {
-      "id": "legacy:wb_mail_cleanup:C1",
+      "id": "easy:wb_mail_cleanup:C1",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -3085,7 +3085,7 @@
       }
     },
     {
-      "id": "legacy:wb_calendar_shift:full",
+      "id": "easy:wb_calendar_shift:full",
       "cohort": "legacy",
       "case": "wb_calendar_shift",
       "case_key": "LEGACY_wb_calendar_shift",
@@ -3135,7 +3135,7 @@
       }
     },
     {
-      "id": "legacy:wb_calendar_shift:M2",
+      "id": "easy:wb_calendar_shift:M2",
       "cohort": "legacy",
       "case": "wb_calendar_shift",
       "case_key": "LEGACY_wb_calendar_shift",
@@ -3192,7 +3192,7 @@
       }
     },
     {
-      "id": "legacy:wb_calendar_shift:C2",
+      "id": "easy:wb_calendar_shift:C2",
       "cohort": "legacy",
       "case": "wb_calendar_shift",
       "case_key": "LEGACY_wb_calendar_shift",
@@ -3253,7 +3253,7 @@
       }
     },
     {
-      "id": "legacy:wb_crm_transfer:full",
+      "id": "easy:wb_crm_transfer:full",
       "cohort": "legacy",
       "case": "wb_crm_transfer",
       "case_key": "LEGACY_wb_crm_transfer",
@@ -3304,7 +3304,7 @@
       }
     },
     {
-      "id": "legacy:wb_crm_transfer:M3",
+      "id": "easy:wb_crm_transfer:M3",
       "cohort": "legacy",
       "case": "wb_crm_transfer",
       "case_key": "LEGACY_wb_crm_transfer",
@@ -3364,7 +3364,7 @@
       }
     },
     {
-      "id": "legacy:wb_crm_transfer:C1",
+      "id": "easy:wb_crm_transfer:C1",
       "cohort": "legacy",
       "case": "wb_crm_transfer",
       "case_key": "LEGACY_wb_crm_transfer",
@@ -3422,7 +3422,7 @@
       }
     },
     {
-      "id": "legacy:wb_project_handoff:full",
+      "id": "easy:wb_project_handoff:full",
       "cohort": "legacy",
       "case": "wb_project_handoff",
       "case_key": "LEGACY_wb_project_handoff",
@@ -3473,7 +3473,7 @@
       }
     },
     {
-      "id": "legacy:wb_project_handoff:M3",
+      "id": "easy:wb_project_handoff:M3",
       "cohort": "legacy",
       "case": "wb_project_handoff",
       "case_key": "LEGACY_wb_project_handoff",
@@ -3533,7 +3533,7 @@
       }
     },
     {
-      "id": "legacy:wb_project_handoff:C1",
+      "id": "easy:wb_project_handoff:C1",
       "cohort": "legacy",
       "case": "wb_project_handoff",
       "case_key": "LEGACY_wb_project_handoff",
@@ -3591,7 +3591,7 @@
       }
     },
     {
-      "id": "legacy:wb_analytics_plot:full",
+      "id": "easy:wb_analytics_plot:full",
       "cohort": "legacy",
       "case": "wb_analytics_plot",
       "case_key": "LEGACY_wb_analytics_plot",
@@ -3641,7 +3641,7 @@
       }
     },
     {
-      "id": "legacy:wb_analytics_plot:M4",
+      "id": "easy:wb_analytics_plot:M4",
       "cohort": "legacy",
       "case": "wb_analytics_plot",
       "case_key": "LEGACY_wb_analytics_plot",
@@ -3702,7 +3702,7 @@
       }
     },
     {
-      "id": "legacy:wb_analytics_plot:C2",
+      "id": "easy:wb_analytics_plot:C2",
       "cohort": "legacy",
       "case": "wb_analytics_plot",
       "case_key": "LEGACY_wb_analytics_plot",
@@ -3763,7 +3763,7 @@
       }
     },
     {
-      "id": "legacy:wb_capacity_lead:full",
+      "id": "easy:wb_capacity_lead:full",
       "cohort": "legacy",
       "case": "wb_capacity_lead",
       "case_key": "LEGACY_wb_capacity_lead",
@@ -3815,7 +3815,7 @@
       }
     },
     {
-      "id": "legacy:wb_capacity_lead:M3",
+      "id": "easy:wb_capacity_lead:M3",
       "cohort": "legacy",
       "case": "wb_capacity_lead",
       "case_key": "LEGACY_wb_capacity_lead",
@@ -3876,7 +3876,7 @@
       }
     },
     {
-      "id": "legacy:wb_capacity_lead:C1",
+      "id": "easy:wb_capacity_lead:C1",
       "cohort": "legacy",
       "case": "wb_capacity_lead",
       "case_key": "LEGACY_wb_capacity_lead",
@@ -3935,7 +3935,7 @@
       }
     },
     {
-      "id": "expanded:AW01:full",
+      "id": "easy:AW01:full",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -3972,7 +3972,7 @@
       }
     },
     {
-      "id": "expanded:AW01:M1",
+      "id": "easy:AW01:M1",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4024,7 +4024,7 @@
       }
     },
     {
-      "id": "expanded:AW01:R1",
+      "id": "easy:AW01:R1",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4062,7 +4062,7 @@
       }
     },
     {
-      "id": "expanded:AW01:C2",
+      "id": "easy:AW01:C2",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4147,7 +4147,7 @@
       }
     },
     {
-      "id": "expanded:AW01:M1C1",
+      "id": "easy:AW01:M1C1",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4230,7 +4230,7 @@
       }
     },
     {
-      "id": "expanded:AW01:M2C2",
+      "id": "easy:AW01:M2C2",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4526,7 +4526,7 @@
       }
     },
     {
-      "id": "expanded:AW01:M3C3",
+      "id": "easy:AW01:M3C3",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -5729,7 +5729,7 @@
       }
     },
     {
-      "id": "expanded:AW02:full",
+      "id": "easy:AW02:full",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -5766,7 +5766,7 @@
       }
     },
     {
-      "id": "expanded:AW02:C1",
+      "id": "easy:AW02:C1",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -5819,7 +5819,7 @@
       }
     },
     {
-      "id": "expanded:AW02:C3",
+      "id": "easy:AW02:C3",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -5976,7 +5976,7 @@
       }
     },
     {
-      "id": "expanded:AW02:R3",
+      "id": "easy:AW02:R3",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -6016,7 +6016,7 @@
       }
     },
     {
-      "id": "expanded:AW03:full",
+      "id": "easy:AW03:full",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6053,7 +6053,7 @@
       }
     },
     {
-      "id": "expanded:AW03:C1",
+      "id": "easy:AW03:C1",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6106,7 +6106,7 @@
       }
     },
     {
-      "id": "expanded:AW03:C3",
+      "id": "easy:AW03:C3",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6253,7 +6253,7 @@
       }
     },
     {
-      "id": "expanded:AW03:R3",
+      "id": "easy:AW03:R3",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6293,7 +6293,7 @@
       }
     },
     {
-      "id": "expanded:AW04:full",
+      "id": "easy:AW04:full",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6331,7 +6331,7 @@
       }
     },
     {
-      "id": "expanded:AW04:M1",
+      "id": "easy:AW04:M1",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6384,7 +6384,7 @@
       }
     },
     {
-      "id": "expanded:AW04:R3",
+      "id": "easy:AW04:R3",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6425,7 +6425,7 @@
       }
     },
     {
-      "id": "expanded:AW04:C1",
+      "id": "easy:AW04:C1",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6480,7 +6480,7 @@
       }
     },
     {
-      "id": "expanded:AW04:M1C1",
+      "id": "easy:AW04:M1C1",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6564,7 +6564,7 @@
       }
     },
     {
-      "id": "expanded:AW04:M2C2",
+      "id": "easy:AW04:M2C2",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6867,7 +6867,7 @@
       }
     },
     {
-      "id": "expanded:AW06:full",
+      "id": "easy:AW06:full",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -6905,7 +6905,7 @@
       }
     },
     {
-      "id": "expanded:AW06:M1",
+      "id": "easy:AW06:M1",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -6958,7 +6958,7 @@
       }
     },
     {
-      "id": "expanded:AW06:C1",
+      "id": "easy:AW06:C1",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -7012,7 +7012,7 @@
       }
     },
     {
-      "id": "expanded:AW06:R3",
+      "id": "easy:AW06:R3",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -7053,7 +7053,7 @@
       }
     },
     {
-      "id": "expanded:AW08:full",
+      "id": "easy:AW08:full",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7091,7 +7091,7 @@
       }
     },
     {
-      "id": "expanded:AW08:M1",
+      "id": "easy:AW08:M1",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7145,7 +7145,7 @@
       }
     },
     {
-      "id": "expanded:AW08:M3",
+      "id": "easy:AW08:M3",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7303,7 +7303,7 @@
       }
     },
     {
-      "id": "expanded:AW08:R3",
+      "id": "easy:AW08:R3",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7344,7 +7344,7 @@
       }
     },
     {
-      "id": "expanded:AW08:C1",
+      "id": "easy:AW08:C1",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7399,7 +7399,7 @@
       }
     },
     {
-      "id": "expanded:AW08:M1C1",
+      "id": "easy:AW08:M1C1",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7484,7 +7484,7 @@
       }
     },
     {
-      "id": "expanded:AW08:M3C3",
+      "id": "easy:AW08:M3C3",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -8861,7 +8861,7 @@
       }
     },
     {
-      "id": "expanded:AW10:full",
+      "id": "easy:AW10:full",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -8899,7 +8899,7 @@
       }
     },
     {
-      "id": "expanded:AW10:M1",
+      "id": "easy:AW10:M1",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -8952,7 +8952,7 @@
       }
     },
     {
-      "id": "expanded:AW10:M3",
+      "id": "easy:AW10:M3",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -9111,7 +9111,7 @@
       }
     },
     {
-      "id": "expanded:AW10:C1",
+      "id": "easy:AW10:C1",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -9165,7 +9165,7 @@
       }
     },
     {
-      "id": "expanded:AW10:R1",
+      "id": "easy:AW10:R1",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -9204,7 +9204,7 @@
       }
     },
     {
-      "id": "expanded:AW11:full",
+      "id": "easy:AW11:full",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9243,7 +9243,7 @@
       }
     },
     {
-      "id": "expanded:AW11:M1",
+      "id": "easy:AW11:M1",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9297,7 +9297,7 @@
       }
     },
     {
-      "id": "expanded:AW11:M2",
+      "id": "easy:AW11:M2",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9383,7 +9383,7 @@
       }
     },
     {
-      "id": "expanded:AW11:C1",
+      "id": "easy:AW11:C1",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9438,7 +9438,7 @@
       }
     },
     {
-      "id": "expanded:AW11:R2",
+      "id": "easy:AW11:R2",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9480,7 +9480,7 @@
       }
     },
     {
-      "id": "expanded:AW11:M1C1",
+      "id": "easy:AW11:M1C1",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9567,7 +9567,7 @@
       }
     },
     {
-      "id": "expanded:AW12:full",
+      "id": "easy:AW12:full",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9607,7 +9607,7 @@
       }
     },
     {
-      "id": "expanded:AW12:M1",
+      "id": "easy:AW12:M1",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9662,7 +9662,7 @@
       }
     },
     {
-      "id": "expanded:AW12:M3",
+      "id": "easy:AW12:M3",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9813,7 +9813,7 @@
       }
     },
     {
-      "id": "expanded:AW12:C1",
+      "id": "easy:AW12:C1",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9869,7 +9869,7 @@
       }
     },
     {
-      "id": "expanded:AW12:R3",
+      "id": "easy:AW12:R3",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9912,7 +9912,7 @@
       }
     },
     {
-      "id": "expanded:AW12:M1C1",
+      "id": "easy:AW12:M1C1",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9998,7 +9998,7 @@
       }
     },
     {
-      "id": "expanded:AW14:full",
+      "id": "easy:AW14:full",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10037,7 +10037,7 @@
       }
     },
     {
-      "id": "expanded:AW14:M1",
+      "id": "easy:AW14:M1",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10091,7 +10091,7 @@
       }
     },
     {
-      "id": "expanded:AW14:M3",
+      "id": "easy:AW14:M3",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10245,7 +10245,7 @@
       }
     },
     {
-      "id": "expanded:AW14:C1",
+      "id": "easy:AW14:C1",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10300,7 +10300,7 @@
       }
     },
     {
-      "id": "expanded:AW14:R2",
+      "id": "easy:AW14:R2",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10341,7 +10341,7 @@
       }
     },
     {
-      "id": "expanded:WB01:full",
+      "id": "easy:WB01:full",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10380,7 +10380,7 @@
       }
     },
     {
-      "id": "expanded:WB01:M1",
+      "id": "easy:WB01:M1",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10434,7 +10434,7 @@
       }
     },
     {
-      "id": "expanded:WB01:M3",
+      "id": "easy:WB01:M3",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10584,7 +10584,7 @@
       }
     },
     {
-      "id": "expanded:WB01:C1",
+      "id": "easy:WB01:C1",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10639,7 +10639,7 @@
       }
     },
     {
-      "id": "expanded:WB01:M1C1",
+      "id": "easy:WB01:M1C1",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10724,7 +10724,7 @@
       }
     },
     {
-      "id": "expanded:WB02:full",
+      "id": "easy:WB02:full",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -10763,7 +10763,7 @@
       }
     },
     {
-      "id": "expanded:WB02:M1",
+      "id": "easy:WB02:M1",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -10818,7 +10818,7 @@
       }
     },
     {
-      "id": "expanded:WB02:C1",
+      "id": "easy:WB02:C1",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -10873,7 +10873,7 @@
       }
     },
     {
-      "id": "expanded:WB02:M3",
+      "id": "easy:WB02:M3",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -11021,7 +11021,7 @@
       }
     },
     {
-      "id": "expanded:WB02:M1C1",
+      "id": "easy:WB02:M1C1",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -11106,7 +11106,7 @@
       }
     },
     {
-      "id": "expanded:WB07:full",
+      "id": "easy:WB07:full",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11145,7 +11145,7 @@
       }
     },
     {
-      "id": "expanded:WB07:C1",
+      "id": "easy:WB07:C1",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11200,7 +11200,7 @@
       }
     },
     {
-      "id": "expanded:WB07:C3",
+      "id": "easy:WB07:C3",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11359,7 +11359,7 @@
       }
     },
     {
-      "id": "expanded:WB07:R1",
+      "id": "easy:WB07:R1",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11399,7 +11399,7 @@
       }
     },
     {
-      "id": "expanded:WB12:full",
+      "id": "easy:WB12:full",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11439,7 +11439,7 @@
       }
     },
     {
-      "id": "expanded:WB12:M1",
+      "id": "easy:WB12:M1",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11494,7 +11494,7 @@
       }
     },
     {
-      "id": "expanded:WB12:M3",
+      "id": "easy:WB12:M3",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11645,7 +11645,7 @@
       }
     },
     {
-      "id": "expanded:WB12:C1",
+      "id": "easy:WB12:C1",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11701,7 +11701,7 @@
       }
     },
     {
-      "id": "expanded:WB12:R1",
+      "id": "easy:WB12:R1",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11742,7 +11742,7 @@
       }
     },
     {
-      "id": "expanded:WB12:M1C1",
+      "id": "easy:WB12:M1C1",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11828,7 +11828,7 @@
       }
     },
     {
-      "id": "expanded:WB14:full",
+      "id": "easy:WB14:full",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -11871,7 +11871,7 @@
       }
     },
     {
-      "id": "expanded:WB14:M1",
+      "id": "easy:WB14:M1",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -11930,7 +11930,7 @@
       }
     },
     {
-      "id": "expanded:WB14:C1",
+      "id": "easy:WB14:C1",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -11989,7 +11989,7 @@
       }
     },
     {
-      "id": "expanded:WB14:M1C1",
+      "id": "easy:WB14:M1C1",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -12078,7 +12078,7 @@
       }
     },
     {
-      "id": "expanded:WB14:M3C3",
+      "id": "easy:WB14:M3C3",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -13379,7 +13379,7 @@
       }
     },
     {
-      "id": "expanded:JB01:full",
+      "id": "hard:JB01:full",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13415,7 +13415,7 @@
       }
     },
     {
-      "id": "expanded:JB01:M1",
+      "id": "hard:JB01:M1",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13467,7 +13467,7 @@
       }
     },
     {
-      "id": "expanded:JB01:C2",
+      "id": "hard:JB01:C2",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13552,7 +13552,7 @@
       }
     },
     {
-      "id": "expanded:JB01:R2",
+      "id": "hard:JB01:R2",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13590,7 +13590,7 @@
       }
     },
     {
-      "id": "expanded:JB01:M1R1C1",
+      "id": "hard:JB01:M1R1C1",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13676,7 +13676,7 @@
       }
     },
     {
-      "id": "expanded:JB02:full",
+      "id": "hard:JB02:full",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13711,7 +13711,7 @@
       }
     },
     {
-      "id": "expanded:JB02:R1",
+      "id": "hard:JB02:R1",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13747,7 +13747,7 @@
       }
     },
     {
-      "id": "expanded:JB02:R3",
+      "id": "hard:JB02:R3",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13785,7 +13785,7 @@
       }
     },
     {
-      "id": "expanded:JB02:R2",
+      "id": "hard:JB02:R2",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13822,7 +13822,7 @@
       }
     },
     {
-      "id": "expanded:JB03:full",
+      "id": "hard:JB03:full",
       "cohort": "expanded",
       "case": "JB03",
       "case_key": "JB03",
@@ -13859,7 +13859,7 @@
       }
     },
     {
-      "id": "expanded:JB03:R3",
+      "id": "hard:JB03:R3",
       "cohort": "expanded",
       "case": "JB03",
       "case_key": "JB03",
@@ -13899,7 +13899,7 @@
       }
     },
     {
-      "id": "expanded:JB04:full",
+      "id": "hard:JB04:full",
       "cohort": "expanded",
       "case": "JB04",
       "case_key": "JB04",
@@ -13935,7 +13935,7 @@
       }
     },
     {
-      "id": "expanded:JB04:R1",
+      "id": "hard:JB04:R1",
       "cohort": "expanded",
       "case": "JB04",
       "case_key": "JB04",
@@ -13972,7 +13972,7 @@
       }
     },
     {
-      "id": "expanded:JB04:R3",
+      "id": "hard:JB04:R3",
       "cohort": "expanded",
       "case": "JB04",
       "case_key": "JB04",
@@ -14011,7 +14011,7 @@
       }
     },
     {
-      "id": "expanded:JB05:full",
+      "id": "hard:JB05:full",
       "cohort": "expanded",
       "case": "JB05",
       "case_key": "JB05",
@@ -14046,7 +14046,7 @@
       }
     },
     {
-      "id": "expanded:JB05:R2",
+      "id": "hard:JB05:R2",
       "cohort": "expanded",
       "case": "JB05",
       "case_key": "JB05",
@@ -14083,7 +14083,7 @@
       }
     },
     {
-      "id": "expanded:JB06:full",
+      "id": "hard:JB06:full",
       "cohort": "expanded",
       "case": "JB06",
       "case_key": "JB06",
@@ -14122,7 +14122,7 @@
       }
     },
     {
-      "id": "expanded:JB06:R3",
+      "id": "hard:JB06:R3",
       "cohort": "expanded",
       "case": "JB06",
       "case_key": "JB06",
@@ -14164,7 +14164,7 @@
       }
     },
     {
-      "id": "expanded:JB07:full",
+      "id": "hard:JB07:full",
       "cohort": "expanded",
       "case": "JB07",
       "case_key": "JB07",
@@ -14199,7 +14199,7 @@
       }
     },
     {
-      "id": "expanded:JB07:R1",
+      "id": "hard:JB07:R1",
       "cohort": "expanded",
       "case": "JB07",
       "case_key": "JB07",
@@ -14235,7 +14235,7 @@
       }
     },
     {
-      "id": "expanded:JB08:full",
+      "id": "hard:JB08:full",
       "cohort": "expanded",
       "case": "JB08",
       "case_key": "JB08",
@@ -14273,7 +14273,7 @@
       }
     },
     {
-      "id": "expanded:JB08:R2",
+      "id": "hard:JB08:R2",
       "cohort": "expanded",
       "case": "JB08",
       "case_key": "JB08",
@@ -14313,7 +14313,7 @@
       }
     },
     {
-      "id": "expanded:JB09:full",
+      "id": "hard:JB09:full",
       "cohort": "expanded",
       "case": "JB09",
       "case_key": "JB09",
@@ -14350,7 +14350,7 @@
       }
     },
     {
-      "id": "expanded:JB09:R3",
+      "id": "hard:JB09:R3",
       "cohort": "expanded",
       "case": "JB09",
       "case_key": "JB09",
@@ -14390,7 +14390,7 @@
       }
     },
     {
-      "id": "expanded:JB10:full",
+      "id": "hard:JB10:full",
       "cohort": "expanded",
       "case": "JB10",
       "case_key": "JB10",
@@ -14427,7 +14427,7 @@
       }
     },
     {
-      "id": "expanded:JB10:R3",
+      "id": "hard:JB10:R3",
       "cohort": "expanded",
       "case": "JB10",
       "case_key": "JB10",
@@ -14467,7 +14467,7 @@
       }
     },
     {
-      "id": "expanded:JB11:C1",
+      "id": "hard:JB11:C1",
       "cohort": "expanded",
       "case": "JB11",
       "case_key": "JB11",
@@ -14520,7 +14520,7 @@
       }
     },
     {
-      "id": "expanded:JB11:R3",
+      "id": "hard:JB11:R3",
       "cohort": "expanded",
       "case": "JB11",
       "case_key": "JB11",
@@ -14559,7 +14559,7 @@
       }
     },
     {
-      "id": "expanded:JB11:full",
+      "id": "hard:JB11:full",
       "cohort": "expanded",
       "case": "JB11",
       "case_key": "JB11",
@@ -14595,7 +14595,7 @@
       }
     },
     {
-      "id": "expanded:JB12:R1",
+      "id": "hard:JB12:R1",
       "cohort": "expanded",
       "case": "JB12",
       "case_key": "JB12",
@@ -14631,7 +14631,7 @@
       }
     },
     {
-      "id": "expanded:JB12:R3",
+      "id": "hard:JB12:R3",
       "cohort": "expanded",
       "case": "JB12",
       "case_key": "JB12",
@@ -14669,7 +14669,7 @@
       }
     },
     {
-      "id": "expanded:JB12:full",
+      "id": "hard:JB12:full",
       "cohort": "expanded",
       "case": "JB12",
       "case_key": "JB12",
@@ -14704,7 +14704,7 @@
       }
     },
     {
-      "id": "expanded:JB13:C1",
+      "id": "hard:JB13:C1",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14758,7 +14758,7 @@
       }
     },
     {
-      "id": "expanded:JB13:M1",
+      "id": "hard:JB13:M1",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14811,7 +14811,7 @@
       }
     },
     {
-      "id": "expanded:JB13:M1C1",
+      "id": "hard:JB13:M1C1",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14897,7 +14897,7 @@
       }
     },
     {
-      "id": "expanded:JB13:R1",
+      "id": "hard:JB13:R1",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14935,7 +14935,7 @@
       }
     },
     {
-      "id": "expanded:JB13:full",
+      "id": "hard:JB13:full",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14972,7 +14972,7 @@
       }
     },
     {
-      "id": "expanded:JB14:full",
+      "id": "hard:JB14:full",
       "cohort": "expanded",
       "case": "JB14",
       "case_key": "JB14",
@@ -15008,7 +15008,7 @@
       }
     },
     {
-      "id": "expanded:JB15:C1",
+      "id": "hard:JB15:C1",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15059,7 +15059,7 @@
       }
     },
     {
-      "id": "expanded:JB15:M1",
+      "id": "hard:JB15:M1",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15109,7 +15109,7 @@
       }
     },
     {
-      "id": "expanded:JB15:M3",
+      "id": "hard:JB15:M3",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15263,7 +15263,7 @@
       }
     },
     {
-      "id": "expanded:JB15:full",
+      "id": "hard:JB15:full",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15297,7 +15297,7 @@
       }
     },
     {
-      "id": "expanded:JB16:R2",
+      "id": "hard:JB16:R2",
       "cohort": "expanded",
       "case": "JB16",
       "case_key": "JB16",
@@ -15338,7 +15338,7 @@
       }
     },
     {
-      "id": "expanded:JB16:full",
+      "id": "hard:JB16:full",
       "cohort": "expanded",
       "case": "JB16",
       "case_key": "JB16",
@@ -15377,7 +15377,7 @@
       }
     },
     {
-      "id": "expanded:JB17:C1",
+      "id": "hard:JB17:C1",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15429,7 +15429,7 @@
       }
     },
     {
-      "id": "expanded:JB17:M1",
+      "id": "hard:JB17:M1",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15480,7 +15480,7 @@
       }
     },
     {
-      "id": "expanded:JB17:R3",
+      "id": "hard:JB17:R3",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15518,7 +15518,7 @@
       }
     },
     {
-      "id": "expanded:JB17:full",
+      "id": "hard:JB17:full",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15553,7 +15553,7 @@
       }
     },
     {
-      "id": "expanded:JB18:R3",
+      "id": "hard:JB18:R3",
       "cohort": "expanded",
       "case": "JB18",
       "case_key": "JB18",
@@ -15592,7 +15592,7 @@
       }
     },
     {
-      "id": "expanded:JB18:full",
+      "id": "hard:JB18:full",
       "cohort": "expanded",
       "case": "JB18",
       "case_key": "JB18",
@@ -15628,7 +15628,7 @@
       }
     },
     {
-      "id": "expanded:JB19:C1",
+      "id": "hard:JB19:C1",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15683,7 +15683,7 @@
       }
     },
     {
-      "id": "expanded:JB19:C3",
+      "id": "hard:JB19:C3",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15842,7 +15842,7 @@
       }
     },
     {
-      "id": "expanded:JB19:M1",
+      "id": "hard:JB19:M1",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15896,7 +15896,7 @@
       }
     },
     {
-      "id": "expanded:JB19:M1C1",
+      "id": "hard:JB19:M1C1",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15983,7 +15983,7 @@
       }
     },
     {
-      "id": "expanded:JB19:R3",
+      "id": "hard:JB19:R3",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -16024,7 +16024,7 @@
       }
     },
     {
-      "id": "expanded:JB19:full",
+      "id": "hard:JB19:full",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -16062,7 +16062,7 @@
       }
     },
     {
-      "id": "expanded:JB20:full",
+      "id": "hard:JB20:full",
       "cohort": "expanded",
       "case": "JB20",
       "case_key": "JB20",
@@ -16109,7 +16109,7 @@
       }
     },
     {
-      "id": "expanded:JB21:R3",
+      "id": "hard:JB21:R3",
       "cohort": "expanded",
       "case": "JB21",
       "case_key": "JB21",
@@ -16148,7 +16148,7 @@
       }
     },
     {
-      "id": "expanded:JB21:full",
+      "id": "hard:JB21:full",
       "cohort": "expanded",
       "case": "JB21",
       "case_key": "JB21",
@@ -16184,7 +16184,7 @@
       }
     },
     {
-      "id": "expanded:JB22:R3",
+      "id": "hard:JB22:R3",
       "cohort": "expanded",
       "case": "JB22",
       "case_key": "JB22",
@@ -16221,7 +16221,7 @@
       }
     },
     {
-      "id": "expanded:JB22:full",
+      "id": "hard:JB22:full",
       "cohort": "expanded",
       "case": "JB22",
       "case_key": "JB22",
@@ -16255,7 +16255,7 @@
       }
     },
     {
-      "id": "expanded:JB23:C1",
+      "id": "hard:JB23:C1",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16308,7 +16308,7 @@
       }
     },
     {
-      "id": "expanded:JB23:M1",
+      "id": "hard:JB23:M1",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16360,7 +16360,7 @@
       }
     },
     {
-      "id": "expanded:JB23:M1C1",
+      "id": "hard:JB23:M1C1",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16443,7 +16443,7 @@
       }
     },
     {
-      "id": "expanded:JB23:M2",
+      "id": "hard:JB23:M2",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16525,7 +16525,7 @@
       }
     },
     {
-      "id": "expanded:JB23:full",
+      "id": "hard:JB23:full",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16561,7 +16561,7 @@
       }
     },
     {
-      "id": "expanded:JB24:R1",
+      "id": "hard:JB24:R1",
       "cohort": "expanded",
       "case": "JB24",
       "case_key": "JB24",
@@ -16600,7 +16600,7 @@
       }
     },
     {
-      "id": "expanded:JB24:R2",
+      "id": "hard:JB24:R2",
       "cohort": "expanded",
       "case": "JB24",
       "case_key": "JB24",
@@ -16640,7 +16640,7 @@
       }
     },
     {
-      "id": "expanded:JB24:full",
+      "id": "hard:JB24:full",
       "cohort": "expanded",
       "case": "JB24",
       "case_key": "JB24",
@@ -16678,7 +16678,7 @@
       }
     },
     {
-      "id": "expanded:JB25:R1",
+      "id": "hard:JB25:R1",
       "cohort": "expanded",
       "case": "JB25",
       "case_key": "JB25",
@@ -16716,7 +16716,7 @@
       }
     },
     {
-      "id": "expanded:JB25:R3",
+      "id": "hard:JB25:R3",
       "cohort": "expanded",
       "case": "JB25",
       "case_key": "JB25",
@@ -16756,7 +16756,7 @@
       }
     },
     {
-      "id": "expanded:JB25:full",
+      "id": "hard:JB25:full",
       "cohort": "expanded",
       "case": "JB25",
       "case_key": "JB25",
@@ -16793,7 +16793,7 @@
       }
     },
     {
-      "id": "expanded:JB26:R2",
+      "id": "hard:JB26:R2",
       "cohort": "expanded",
       "case": "JB26",
       "case_key": "JB26",
@@ -16833,7 +16833,7 @@
       }
     },
     {
-      "id": "expanded:JB26:full",
+      "id": "hard:JB26:full",
       "cohort": "expanded",
       "case": "JB26",
       "case_key": "JB26",
@@ -16871,7 +16871,7 @@
       }
     },
     {
-      "id": "expanded:JB27:R3",
+      "id": "hard:JB27:R3",
       "cohort": "expanded",
       "case": "JB27",
       "case_key": "JB27",
@@ -16909,7 +16909,7 @@
       }
     },
     {
-      "id": "expanded:JB27:full",
+      "id": "hard:JB27:full",
       "cohort": "expanded",
       "case": "JB27",
       "case_key": "JB27",
@@ -16944,7 +16944,7 @@
       }
     },
     {
-      "id": "expanded:JB28:R2",
+      "id": "hard:JB28:R2",
       "cohort": "expanded",
       "case": "JB28",
       "case_key": "JB28",
@@ -16981,7 +16981,7 @@
       }
     },
     {
-      "id": "expanded:JB28:full",
+      "id": "hard:JB28:full",
       "cohort": "expanded",
       "case": "JB28",
       "case_key": "JB28",
@@ -17016,7 +17016,7 @@
       }
     },
     {
-      "id": "expanded:JB29:C1",
+      "id": "hard:JB29:C1",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17069,7 +17069,7 @@
       }
     },
     {
-      "id": "expanded:JB29:M1",
+      "id": "hard:JB29:M1",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17121,7 +17121,7 @@
       }
     },
     {
-      "id": "expanded:JB29:M1C1",
+      "id": "hard:JB29:M1C1",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17206,7 +17206,7 @@
       }
     },
     {
-      "id": "expanded:JB29:M2",
+      "id": "hard:JB29:M2",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17290,7 +17290,7 @@
       }
     },
     {
-      "id": "expanded:JB29:full",
+      "id": "hard:JB29:full",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17326,7 +17326,7 @@
       }
     },
     {
-      "id": "expanded:JB30:R3",
+      "id": "hard:JB30:R3",
       "cohort": "expanded",
       "case": "JB30",
       "case_key": "JB30",
@@ -17370,7 +17370,7 @@
       }
     },
     {
-      "id": "expanded:JB30:full",
+      "id": "hard:JB30:full",
       "cohort": "expanded",
       "case": "JB30",
       "case_key": "JB30",

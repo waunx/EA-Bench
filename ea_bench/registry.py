@@ -10,7 +10,8 @@ def entries():
 
 
 def get_entry(episode_id):
-    matches = [e for e in entries() if e['id'] == episode_id]
+    matches = [e for e in entries()
+               if episode_id in (e['id'], f"{e['cohort']}:{e['case']}:{e['variant']}")]
     if len(matches) != 1:
         raise ValueError(f'Unknown episode: {episode_id}')
     return matches[0]
