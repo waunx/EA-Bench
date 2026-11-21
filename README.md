@@ -71,9 +71,9 @@ Easy contains **33 base tasks and 147 conditions**: 18 closed-state tasks and
 python -m ea_bench list --track easy
 
 python -m ea_bench run \
-  --episode easy:procurement:M2 \
+  --episode easy:JB32:M2 \
   --config config.local.json \
-  --output outputs/easy/procurement-M2 \
+  --output outputs/easy/JB32-M2 \
   --max-actions 100
 
 python -m ea_bench run \
@@ -125,7 +125,12 @@ artifact can be graded without clarification records.
 ### Episode identifiers
 
 The public format is `<track>:<task>:<condition>`, with `easy` or `hard` as the
-track. `python -m ea_bench list` lists all 232 retained conditions. Use the listed
+track. Both tracks use the paper's task IDs: a source prefix (`AW`, `WB`, or
+`JB`) followed by two digits. For example, `easy:JB32:M2` and `hard:JB17:M1`
+follow the same naming rule. The source prefix does not determine difficulty;
+`JB31`–`JB36` belong to Easy, while `JB01`–`JB30` belong to Hard.
+
+`python -m ea_bench list` lists all 232 retained conditions. Use the listed
 condition names, such as `full`, `M1`, or `R1`; not every task has every condition.
 Outputs record the canonical Easy/Hard episode identifier.
 

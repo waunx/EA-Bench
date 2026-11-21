@@ -5,7 +5,8 @@
   "conditions": 232,
   "episodes": [
     {
-      "id": "easy:workforce:full",
+      "id": "easy:JB31:full",
+      "task_id": "JB31",
       "cohort": "legacy",
       "case": "workforce",
       "case_key": "LEGACY_workforce",
@@ -56,7 +57,8 @@
       }
     },
     {
-      "id": "easy:workforce:M2",
+      "id": "easy:JB31:M2",
+      "task_id": "JB31",
       "cohort": "legacy",
       "case": "workforce",
       "case_key": "LEGACY_workforce",
@@ -114,7 +116,8 @@
       }
     },
     {
-      "id": "easy:workforce:C2",
+      "id": "easy:JB31:C2",
+      "task_id": "JB31",
       "cohort": "legacy",
       "case": "workforce",
       "case_key": "LEGACY_workforce",
@@ -176,7 +179,8 @@
       }
     },
     {
-      "id": "easy:procurement:full",
+      "id": "easy:JB32:full",
+      "task_id": "JB32",
       "cohort": "legacy",
       "case": "procurement",
       "case_key": "LEGACY_procurement",
@@ -228,7 +232,8 @@
       }
     },
     {
-      "id": "easy:procurement:M2",
+      "id": "easy:JB32:M2",
+      "task_id": "JB32",
       "cohort": "legacy",
       "case": "procurement",
       "case_key": "LEGACY_procurement",
@@ -287,7 +292,8 @@
       }
     },
     {
-      "id": "easy:procurement:C1",
+      "id": "easy:JB32:C1",
+      "task_id": "JB32",
       "cohort": "legacy",
       "case": "procurement",
       "case_key": "LEGACY_procurement",
@@ -346,7 +352,8 @@
       }
     },
     {
-      "id": "easy:training:full",
+      "id": "easy:JB33:full",
+      "task_id": "JB33",
       "cohort": "legacy",
       "case": "training",
       "case_key": "LEGACY_training",
@@ -398,7 +405,8 @@
       }
     },
     {
-      "id": "easy:training:M1",
+      "id": "easy:JB33:M1",
+      "task_id": "JB33",
       "cohort": "legacy",
       "case": "training",
       "case_key": "LEGACY_training",
@@ -455,7 +463,8 @@
       }
     },
     {
-      "id": "easy:training:C1",
+      "id": "easy:JB33:C1",
+      "task_id": "JB33",
       "cohort": "legacy",
       "case": "training",
       "case_key": "LEGACY_training",
@@ -514,7 +523,8 @@
       }
     },
     {
-      "id": "easy:reconciliation:full",
+      "id": "easy:JB34:full",
+      "task_id": "JB34",
       "cohort": "legacy",
       "case": "reconciliation",
       "case_key": "LEGACY_reconciliation",
@@ -565,7 +575,8 @@
       }
     },
     {
-      "id": "easy:reconciliation:M1",
+      "id": "easy:JB34:M1",
+      "task_id": "JB34",
       "cohort": "legacy",
       "case": "reconciliation",
       "case_key": "LEGACY_reconciliation",
@@ -621,7 +632,8 @@
       }
     },
     {
-      "id": "easy:reconciliation:C2",
+      "id": "easy:JB34:C2",
+      "task_id": "JB34",
       "cohort": "legacy",
       "case": "reconciliation",
       "case_key": "LEGACY_reconciliation",
@@ -683,7 +695,8 @@
       }
     },
     {
-      "id": "easy:donor_registry:full",
+      "id": "easy:JB35:full",
+      "task_id": "JB35",
       "cohort": "legacy",
       "case": "donor_registry",
       "case_key": "LEGACY_donor_registry",
@@ -735,7 +748,8 @@
       }
     },
     {
-      "id": "easy:donor_registry:M1",
+      "id": "easy:JB35:M1",
+      "task_id": "JB35",
       "cohort": "legacy",
       "case": "donor_registry",
       "case_key": "LEGACY_donor_registry",
@@ -792,7 +806,8 @@
       }
     },
     {
-      "id": "easy:donor_registry:C2",
+      "id": "easy:JB35:C2",
+      "task_id": "JB35",
       "cohort": "legacy",
       "case": "donor_registry",
       "case_key": "LEGACY_donor_registry",
@@ -855,7 +870,8 @@
       }
     },
     {
-      "id": "easy:inventory_replenishment:full",
+      "id": "easy:JB36:full",
+      "task_id": "JB36",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -907,7 +923,8 @@
       }
     },
     {
-      "id": "easy:inventory_replenishment:M1",
+      "id": "easy:JB36:M1",
+      "task_id": "JB36",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -964,7 +981,8 @@
       }
     },
     {
-      "id": "easy:inventory_replenishment:C1",
+      "id": "easy:JB36:C1",
+      "task_id": "JB36",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -1023,7 +1041,8 @@
       }
     },
     {
-      "id": "easy:inventory_replenishment:C3",
+      "id": "easy:JB36:C3",
+      "task_id": "JB36",
       "cohort": "legacy",
       "case": "inventory_replenishment",
       "case_key": "LEGACY_inventory_replenishment",
@@ -1090,7 +1109,8 @@
       }
     },
     {
-      "id": "easy:aw_note_mail:full",
+      "id": "easy:AW15:full",
+      "task_id": "AW15",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1141,7 +1161,8 @@
       }
     },
     {
-      "id": "easy:aw_note_mail:M1",
+      "id": "easy:AW15:M1",
+      "task_id": "AW15",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1197,7 +1218,8 @@
       }
     },
     {
-      "id": "easy:aw_note_mail:M2",
+      "id": "easy:AW15:M2",
+      "task_id": "AW15",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1255,7 +1277,8 @@
       }
     },
     {
-      "id": "easy:aw_note_mail:C3",
+      "id": "easy:AW15:C3",
+      "task_id": "AW15",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1321,7 +1344,8 @@
       }
     },
     {
-      "id": "easy:aw_note_mail:C4",
+      "id": "easy:AW15:C4",
+      "task_id": "AW15",
       "cohort": "legacy",
       "case": "aw_note_mail",
       "case_key": "LEGACY_aw_note_mail",
@@ -1391,7 +1415,8 @@
       }
     },
     {
-      "id": "easy:aw_artist_follow:full",
+      "id": "easy:AW16:full",
+      "task_id": "AW16",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1443,7 +1468,8 @@
       }
     },
     {
-      "id": "easy:aw_artist_follow:M1",
+      "id": "easy:AW16:M1",
+      "task_id": "AW16",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1500,7 +1526,8 @@
       }
     },
     {
-      "id": "easy:aw_artist_follow:M2",
+      "id": "easy:AW16:M2",
+      "task_id": "AW16",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1559,7 +1586,8 @@
       }
     },
     {
-      "id": "easy:aw_artist_follow:C1",
+      "id": "easy:AW16:C1",
+      "task_id": "AW16",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1618,7 +1646,8 @@
       }
     },
     {
-      "id": "easy:aw_artist_follow:C2",
+      "id": "easy:AW16:C2",
+      "task_id": "AW16",
       "cohort": "legacy",
       "case": "aw_artist_follow",
       "case_key": "LEGACY_aw_artist_follow",
@@ -1681,7 +1710,8 @@
       }
     },
     {
-      "id": "easy:aw_trip_checkout:full",
+      "id": "easy:AW17:full",
+      "task_id": "AW17",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1733,7 +1763,8 @@
       }
     },
     {
-      "id": "easy:aw_trip_checkout:M1",
+      "id": "easy:AW17:M1",
+      "task_id": "AW17",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1790,7 +1821,8 @@
       }
     },
     {
-      "id": "easy:aw_trip_checkout:M2",
+      "id": "easy:AW17:M2",
+      "task_id": "AW17",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1849,7 +1881,8 @@
       }
     },
     {
-      "id": "easy:aw_trip_checkout:C2",
+      "id": "easy:AW17:C2",
+      "task_id": "AW17",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1912,7 +1945,8 @@
       }
     },
     {
-      "id": "easy:aw_trip_checkout:C4",
+      "id": "easy:AW17:C4",
+      "task_id": "AW17",
       "cohort": "legacy",
       "case": "aw_trip_checkout",
       "case_key": "LEGACY_aw_trip_checkout",
@@ -1983,7 +2017,8 @@
       }
     },
     {
-      "id": "easy:aw_flight_alarms:full",
+      "id": "easy:AW18:full",
+      "task_id": "AW18",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2035,7 +2070,8 @@
       }
     },
     {
-      "id": "easy:aw_flight_alarms:M1",
+      "id": "easy:AW18:M1",
+      "task_id": "AW18",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2092,7 +2128,8 @@
       }
     },
     {
-      "id": "easy:aw_flight_alarms:M2",
+      "id": "easy:AW18:M2",
+      "task_id": "AW18",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2151,7 +2188,8 @@
       }
     },
     {
-      "id": "easy:aw_flight_alarms:M3",
+      "id": "easy:AW18:M3",
+      "task_id": "AW18",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2212,7 +2250,8 @@
       }
     },
     {
-      "id": "easy:aw_flight_alarms:C2",
+      "id": "easy:AW18:C2",
+      "task_id": "AW18",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2275,7 +2314,8 @@
       }
     },
     {
-      "id": "easy:aw_flight_alarms:C3",
+      "id": "easy:AW18:C3",
+      "task_id": "AW18",
       "cohort": "legacy",
       "case": "aw_flight_alarms",
       "case_key": "LEGACY_aw_flight_alarms",
@@ -2342,7 +2382,8 @@
       }
     },
     {
-      "id": "easy:aw_music_mail:full",
+      "id": "easy:AW19:full",
+      "task_id": "AW19",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2393,7 +2434,8 @@
       }
     },
     {
-      "id": "easy:aw_music_mail:M1",
+      "id": "easy:AW19:M1",
+      "task_id": "AW19",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2449,7 +2491,8 @@
       }
     },
     {
-      "id": "easy:aw_music_mail:M2",
+      "id": "easy:AW19:M2",
+      "task_id": "AW19",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2507,7 +2550,8 @@
       }
     },
     {
-      "id": "easy:aw_music_mail:C4",
+      "id": "easy:AW19:C4",
+      "task_id": "AW19",
       "cohort": "legacy",
       "case": "aw_music_mail",
       "case_key": "LEGACY_aw_music_mail",
@@ -2577,7 +2621,8 @@
       }
     },
     {
-      "id": "easy:aw_order_returns:full",
+      "id": "easy:AW20:full",
+      "task_id": "AW20",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2628,7 +2673,8 @@
       }
     },
     {
-      "id": "easy:aw_order_returns:M1",
+      "id": "easy:AW20:M1",
+      "task_id": "AW20",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2684,7 +2730,8 @@
       }
     },
     {
-      "id": "easy:aw_order_returns:M3",
+      "id": "easy:AW20:M3",
+      "task_id": "AW20",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2744,7 +2791,8 @@
       }
     },
     {
-      "id": "easy:aw_order_returns:C1",
+      "id": "easy:AW20:C1",
+      "task_id": "AW20",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2802,7 +2850,8 @@
       }
     },
     {
-      "id": "easy:aw_order_returns:C2",
+      "id": "easy:AW20:C2",
+      "task_id": "AW20",
       "cohort": "legacy",
       "case": "aw_order_returns",
       "case_key": "LEGACY_aw_order_returns",
@@ -2864,7 +2913,8 @@
       }
     },
     {
-      "id": "easy:wb_mail_cleanup:full",
+      "id": "easy:WB15:full",
+      "task_id": "WB15",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -2914,7 +2964,8 @@
       }
     },
     {
-      "id": "easy:wb_mail_cleanup:M1",
+      "id": "easy:WB15:M1",
+      "task_id": "WB15",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -2969,7 +3020,8 @@
       }
     },
     {
-      "id": "easy:wb_mail_cleanup:M3",
+      "id": "easy:WB15:M3",
+      "task_id": "WB15",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -3028,7 +3080,8 @@
       }
     },
     {
-      "id": "easy:wb_mail_cleanup:C1",
+      "id": "easy:WB15:C1",
+      "task_id": "WB15",
       "cohort": "legacy",
       "case": "wb_mail_cleanup",
       "case_key": "LEGACY_wb_mail_cleanup",
@@ -3085,7 +3138,8 @@
       }
     },
     {
-      "id": "easy:wb_calendar_shift:full",
+      "id": "easy:WB16:full",
+      "task_id": "WB16",
       "cohort": "legacy",
       "case": "wb_calendar_shift",
       "case_key": "LEGACY_wb_calendar_shift",
@@ -3135,7 +3189,8 @@
       }
     },
     {
-      "id": "easy:wb_calendar_shift:M2",
+      "id": "easy:WB16:M2",
+      "task_id": "WB16",
       "cohort": "legacy",
       "case": "wb_calendar_shift",
       "case_key": "LEGACY_wb_calendar_shift",
@@ -3192,7 +3247,8 @@
       }
     },
     {
-      "id": "easy:wb_calendar_shift:C2",
+      "id": "easy:WB16:C2",
+      "task_id": "WB16",
       "cohort": "legacy",
       "case": "wb_calendar_shift",
       "case_key": "LEGACY_wb_calendar_shift",
@@ -3253,7 +3309,8 @@
       }
     },
     {
-      "id": "easy:wb_crm_transfer:full",
+      "id": "easy:WB17:full",
+      "task_id": "WB17",
       "cohort": "legacy",
       "case": "wb_crm_transfer",
       "case_key": "LEGACY_wb_crm_transfer",
@@ -3304,7 +3361,8 @@
       }
     },
     {
-      "id": "easy:wb_crm_transfer:M3",
+      "id": "easy:WB17:M3",
+      "task_id": "WB17",
       "cohort": "legacy",
       "case": "wb_crm_transfer",
       "case_key": "LEGACY_wb_crm_transfer",
@@ -3364,7 +3422,8 @@
       }
     },
     {
-      "id": "easy:wb_crm_transfer:C1",
+      "id": "easy:WB17:C1",
+      "task_id": "WB17",
       "cohort": "legacy",
       "case": "wb_crm_transfer",
       "case_key": "LEGACY_wb_crm_transfer",
@@ -3422,7 +3481,8 @@
       }
     },
     {
-      "id": "easy:wb_project_handoff:full",
+      "id": "easy:WB18:full",
+      "task_id": "WB18",
       "cohort": "legacy",
       "case": "wb_project_handoff",
       "case_key": "LEGACY_wb_project_handoff",
@@ -3473,7 +3533,8 @@
       }
     },
     {
-      "id": "easy:wb_project_handoff:M3",
+      "id": "easy:WB18:M3",
+      "task_id": "WB18",
       "cohort": "legacy",
       "case": "wb_project_handoff",
       "case_key": "LEGACY_wb_project_handoff",
@@ -3533,7 +3594,8 @@
       }
     },
     {
-      "id": "easy:wb_project_handoff:C1",
+      "id": "easy:WB18:C1",
+      "task_id": "WB18",
       "cohort": "legacy",
       "case": "wb_project_handoff",
       "case_key": "LEGACY_wb_project_handoff",
@@ -3591,7 +3653,8 @@
       }
     },
     {
-      "id": "easy:wb_analytics_plot:full",
+      "id": "easy:WB19:full",
+      "task_id": "WB19",
       "cohort": "legacy",
       "case": "wb_analytics_plot",
       "case_key": "LEGACY_wb_analytics_plot",
@@ -3641,7 +3704,8 @@
       }
     },
     {
-      "id": "easy:wb_analytics_plot:M4",
+      "id": "easy:WB19:M4",
+      "task_id": "WB19",
       "cohort": "legacy",
       "case": "wb_analytics_plot",
       "case_key": "LEGACY_wb_analytics_plot",
@@ -3702,7 +3766,8 @@
       }
     },
     {
-      "id": "easy:wb_analytics_plot:C2",
+      "id": "easy:WB19:C2",
+      "task_id": "WB19",
       "cohort": "legacy",
       "case": "wb_analytics_plot",
       "case_key": "LEGACY_wb_analytics_plot",
@@ -3763,7 +3828,8 @@
       }
     },
     {
-      "id": "easy:wb_capacity_lead:full",
+      "id": "easy:WB20:full",
+      "task_id": "WB20",
       "cohort": "legacy",
       "case": "wb_capacity_lead",
       "case_key": "LEGACY_wb_capacity_lead",
@@ -3815,7 +3881,8 @@
       }
     },
     {
-      "id": "easy:wb_capacity_lead:M3",
+      "id": "easy:WB20:M3",
+      "task_id": "WB20",
       "cohort": "legacy",
       "case": "wb_capacity_lead",
       "case_key": "LEGACY_wb_capacity_lead",
@@ -3876,7 +3943,8 @@
       }
     },
     {
-      "id": "easy:wb_capacity_lead:C1",
+      "id": "easy:WB20:C1",
+      "task_id": "WB20",
       "cohort": "legacy",
       "case": "wb_capacity_lead",
       "case_key": "LEGACY_wb_capacity_lead",
@@ -3936,6 +4004,7 @@
     },
     {
       "id": "easy:AW01:full",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -3973,6 +4042,7 @@
     },
     {
       "id": "easy:AW01:M1",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4025,6 +4095,7 @@
     },
     {
       "id": "easy:AW01:R1",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4063,6 +4134,7 @@
     },
     {
       "id": "easy:AW01:C2",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4148,6 +4220,7 @@
     },
     {
       "id": "easy:AW01:M1C1",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4231,6 +4304,7 @@
     },
     {
       "id": "easy:AW01:M2C2",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -4527,6 +4601,7 @@
     },
     {
       "id": "easy:AW01:M3C3",
+      "task_id": "AW01",
       "cohort": "expanded",
       "case": "AW01",
       "case_key": "AW01",
@@ -5730,6 +5805,7 @@
     },
     {
       "id": "easy:AW02:full",
+      "task_id": "AW02",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -5767,6 +5843,7 @@
     },
     {
       "id": "easy:AW02:C1",
+      "task_id": "AW02",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -5820,6 +5897,7 @@
     },
     {
       "id": "easy:AW02:C3",
+      "task_id": "AW02",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -5977,6 +6055,7 @@
     },
     {
       "id": "easy:AW02:R3",
+      "task_id": "AW02",
       "cohort": "expanded",
       "case": "AW02",
       "case_key": "AW02",
@@ -6017,6 +6096,7 @@
     },
     {
       "id": "easy:AW03:full",
+      "task_id": "AW03",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6054,6 +6134,7 @@
     },
     {
       "id": "easy:AW03:C1",
+      "task_id": "AW03",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6107,6 +6188,7 @@
     },
     {
       "id": "easy:AW03:C3",
+      "task_id": "AW03",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6254,6 +6336,7 @@
     },
     {
       "id": "easy:AW03:R3",
+      "task_id": "AW03",
       "cohort": "expanded",
       "case": "AW03",
       "case_key": "AW03",
@@ -6294,6 +6377,7 @@
     },
     {
       "id": "easy:AW04:full",
+      "task_id": "AW04",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6332,6 +6416,7 @@
     },
     {
       "id": "easy:AW04:M1",
+      "task_id": "AW04",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6385,6 +6470,7 @@
     },
     {
       "id": "easy:AW04:R3",
+      "task_id": "AW04",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6426,6 +6512,7 @@
     },
     {
       "id": "easy:AW04:C1",
+      "task_id": "AW04",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6481,6 +6568,7 @@
     },
     {
       "id": "easy:AW04:M1C1",
+      "task_id": "AW04",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6565,6 +6653,7 @@
     },
     {
       "id": "easy:AW04:M2C2",
+      "task_id": "AW04",
       "cohort": "expanded",
       "case": "AW04",
       "case_key": "AW04",
@@ -6868,6 +6957,7 @@
     },
     {
       "id": "easy:AW06:full",
+      "task_id": "AW06",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -6906,6 +6996,7 @@
     },
     {
       "id": "easy:AW06:M1",
+      "task_id": "AW06",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -6959,6 +7050,7 @@
     },
     {
       "id": "easy:AW06:C1",
+      "task_id": "AW06",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -7013,6 +7105,7 @@
     },
     {
       "id": "easy:AW06:R3",
+      "task_id": "AW06",
       "cohort": "expanded",
       "case": "AW06",
       "case_key": "AW06",
@@ -7054,6 +7147,7 @@
     },
     {
       "id": "easy:AW08:full",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7092,6 +7186,7 @@
     },
     {
       "id": "easy:AW08:M1",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7146,6 +7241,7 @@
     },
     {
       "id": "easy:AW08:M3",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7304,6 +7400,7 @@
     },
     {
       "id": "easy:AW08:R3",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7345,6 +7442,7 @@
     },
     {
       "id": "easy:AW08:C1",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7400,6 +7498,7 @@
     },
     {
       "id": "easy:AW08:M1C1",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -7485,6 +7584,7 @@
     },
     {
       "id": "easy:AW08:M3C3",
+      "task_id": "AW08",
       "cohort": "expanded",
       "case": "AW08",
       "case_key": "AW08",
@@ -8862,6 +8962,7 @@
     },
     {
       "id": "easy:AW10:full",
+      "task_id": "AW10",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -8900,6 +9001,7 @@
     },
     {
       "id": "easy:AW10:M1",
+      "task_id": "AW10",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -8953,6 +9055,7 @@
     },
     {
       "id": "easy:AW10:M3",
+      "task_id": "AW10",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -9112,6 +9215,7 @@
     },
     {
       "id": "easy:AW10:C1",
+      "task_id": "AW10",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -9166,6 +9270,7 @@
     },
     {
       "id": "easy:AW10:R1",
+      "task_id": "AW10",
       "cohort": "expanded",
       "case": "AW10",
       "case_key": "AW10",
@@ -9205,6 +9310,7 @@
     },
     {
       "id": "easy:AW11:full",
+      "task_id": "AW11",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9244,6 +9350,7 @@
     },
     {
       "id": "easy:AW11:M1",
+      "task_id": "AW11",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9298,6 +9405,7 @@
     },
     {
       "id": "easy:AW11:M2",
+      "task_id": "AW11",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9384,6 +9492,7 @@
     },
     {
       "id": "easy:AW11:C1",
+      "task_id": "AW11",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9439,6 +9548,7 @@
     },
     {
       "id": "easy:AW11:R2",
+      "task_id": "AW11",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9481,6 +9591,7 @@
     },
     {
       "id": "easy:AW11:M1C1",
+      "task_id": "AW11",
       "cohort": "expanded",
       "case": "AW11",
       "case_key": "AW11",
@@ -9568,6 +9679,7 @@
     },
     {
       "id": "easy:AW12:full",
+      "task_id": "AW12",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9608,6 +9720,7 @@
     },
     {
       "id": "easy:AW12:M1",
+      "task_id": "AW12",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9663,6 +9776,7 @@
     },
     {
       "id": "easy:AW12:M3",
+      "task_id": "AW12",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9814,6 +9928,7 @@
     },
     {
       "id": "easy:AW12:C1",
+      "task_id": "AW12",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9870,6 +9985,7 @@
     },
     {
       "id": "easy:AW12:R3",
+      "task_id": "AW12",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9913,6 +10029,7 @@
     },
     {
       "id": "easy:AW12:M1C1",
+      "task_id": "AW12",
       "cohort": "expanded",
       "case": "AW12",
       "case_key": "AW12",
@@ -9999,6 +10116,7 @@
     },
     {
       "id": "easy:AW14:full",
+      "task_id": "AW14",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10038,6 +10156,7 @@
     },
     {
       "id": "easy:AW14:M1",
+      "task_id": "AW14",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10092,6 +10211,7 @@
     },
     {
       "id": "easy:AW14:M3",
+      "task_id": "AW14",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10246,6 +10366,7 @@
     },
     {
       "id": "easy:AW14:C1",
+      "task_id": "AW14",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10301,6 +10422,7 @@
     },
     {
       "id": "easy:AW14:R2",
+      "task_id": "AW14",
       "cohort": "expanded",
       "case": "AW14",
       "case_key": "AW14",
@@ -10342,6 +10464,7 @@
     },
     {
       "id": "easy:WB01:full",
+      "task_id": "WB01",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10381,6 +10504,7 @@
     },
     {
       "id": "easy:WB01:M1",
+      "task_id": "WB01",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10435,6 +10559,7 @@
     },
     {
       "id": "easy:WB01:M3",
+      "task_id": "WB01",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10585,6 +10710,7 @@
     },
     {
       "id": "easy:WB01:C1",
+      "task_id": "WB01",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10640,6 +10766,7 @@
     },
     {
       "id": "easy:WB01:M1C1",
+      "task_id": "WB01",
       "cohort": "expanded",
       "case": "WB01",
       "case_key": "WB01",
@@ -10725,6 +10852,7 @@
     },
     {
       "id": "easy:WB02:full",
+      "task_id": "WB02",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -10764,6 +10892,7 @@
     },
     {
       "id": "easy:WB02:M1",
+      "task_id": "WB02",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -10819,6 +10948,7 @@
     },
     {
       "id": "easy:WB02:C1",
+      "task_id": "WB02",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -10874,6 +11004,7 @@
     },
     {
       "id": "easy:WB02:M3",
+      "task_id": "WB02",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -11022,6 +11153,7 @@
     },
     {
       "id": "easy:WB02:M1C1",
+      "task_id": "WB02",
       "cohort": "expanded",
       "case": "WB02",
       "case_key": "WB02",
@@ -11107,6 +11239,7 @@
     },
     {
       "id": "easy:WB07:full",
+      "task_id": "WB07",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11146,6 +11279,7 @@
     },
     {
       "id": "easy:WB07:C1",
+      "task_id": "WB07",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11201,6 +11335,7 @@
     },
     {
       "id": "easy:WB07:C3",
+      "task_id": "WB07",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11360,6 +11495,7 @@
     },
     {
       "id": "easy:WB07:R1",
+      "task_id": "WB07",
       "cohort": "expanded",
       "case": "WB07",
       "case_key": "WB07",
@@ -11400,6 +11536,7 @@
     },
     {
       "id": "easy:WB12:full",
+      "task_id": "WB12",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11440,6 +11577,7 @@
     },
     {
       "id": "easy:WB12:M1",
+      "task_id": "WB12",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11495,6 +11633,7 @@
     },
     {
       "id": "easy:WB12:M3",
+      "task_id": "WB12",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11646,6 +11785,7 @@
     },
     {
       "id": "easy:WB12:C1",
+      "task_id": "WB12",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11702,6 +11842,7 @@
     },
     {
       "id": "easy:WB12:R1",
+      "task_id": "WB12",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11743,6 +11884,7 @@
     },
     {
       "id": "easy:WB12:M1C1",
+      "task_id": "WB12",
       "cohort": "expanded",
       "case": "WB12",
       "case_key": "WB12",
@@ -11829,6 +11971,7 @@
     },
     {
       "id": "easy:WB14:full",
+      "task_id": "WB14",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -11872,6 +12015,7 @@
     },
     {
       "id": "easy:WB14:M1",
+      "task_id": "WB14",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -11931,6 +12075,7 @@
     },
     {
       "id": "easy:WB14:C1",
+      "task_id": "WB14",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -11990,6 +12135,7 @@
     },
     {
       "id": "easy:WB14:M1C1",
+      "task_id": "WB14",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -12079,6 +12225,7 @@
     },
     {
       "id": "easy:WB14:M3C3",
+      "task_id": "WB14",
       "cohort": "expanded",
       "case": "WB14",
       "case_key": "WB14",
@@ -13380,6 +13527,7 @@
     },
     {
       "id": "hard:JB01:full",
+      "task_id": "JB01",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13416,6 +13564,7 @@
     },
     {
       "id": "hard:JB01:M1",
+      "task_id": "JB01",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13468,6 +13617,7 @@
     },
     {
       "id": "hard:JB01:C2",
+      "task_id": "JB01",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13553,6 +13703,7 @@
     },
     {
       "id": "hard:JB01:R2",
+      "task_id": "JB01",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13591,6 +13742,7 @@
     },
     {
       "id": "hard:JB01:M1R1C1",
+      "task_id": "JB01",
       "cohort": "expanded",
       "case": "JB01",
       "case_key": "JB01",
@@ -13677,6 +13829,7 @@
     },
     {
       "id": "hard:JB02:full",
+      "task_id": "JB02",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13712,6 +13865,7 @@
     },
     {
       "id": "hard:JB02:R1",
+      "task_id": "JB02",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13748,6 +13902,7 @@
     },
     {
       "id": "hard:JB02:R3",
+      "task_id": "JB02",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13786,6 +13941,7 @@
     },
     {
       "id": "hard:JB02:R2",
+      "task_id": "JB02",
       "cohort": "expanded",
       "case": "JB02",
       "case_key": "JB02",
@@ -13823,6 +13979,7 @@
     },
     {
       "id": "hard:JB03:full",
+      "task_id": "JB03",
       "cohort": "expanded",
       "case": "JB03",
       "case_key": "JB03",
@@ -13860,6 +14017,7 @@
     },
     {
       "id": "hard:JB03:R3",
+      "task_id": "JB03",
       "cohort": "expanded",
       "case": "JB03",
       "case_key": "JB03",
@@ -13900,6 +14058,7 @@
     },
     {
       "id": "hard:JB04:full",
+      "task_id": "JB04",
       "cohort": "expanded",
       "case": "JB04",
       "case_key": "JB04",
@@ -13936,6 +14095,7 @@
     },
     {
       "id": "hard:JB04:R1",
+      "task_id": "JB04",
       "cohort": "expanded",
       "case": "JB04",
       "case_key": "JB04",
@@ -13973,6 +14133,7 @@
     },
     {
       "id": "hard:JB04:R3",
+      "task_id": "JB04",
       "cohort": "expanded",
       "case": "JB04",
       "case_key": "JB04",
@@ -14012,6 +14173,7 @@
     },
     {
       "id": "hard:JB05:full",
+      "task_id": "JB05",
       "cohort": "expanded",
       "case": "JB05",
       "case_key": "JB05",
@@ -14047,6 +14209,7 @@
     },
     {
       "id": "hard:JB05:R2",
+      "task_id": "JB05",
       "cohort": "expanded",
       "case": "JB05",
       "case_key": "JB05",
@@ -14084,6 +14247,7 @@
     },
     {
       "id": "hard:JB06:full",
+      "task_id": "JB06",
       "cohort": "expanded",
       "case": "JB06",
       "case_key": "JB06",
@@ -14123,6 +14287,7 @@
     },
     {
       "id": "hard:JB06:R3",
+      "task_id": "JB06",
       "cohort": "expanded",
       "case": "JB06",
       "case_key": "JB06",
@@ -14165,6 +14330,7 @@
     },
     {
       "id": "hard:JB07:full",
+      "task_id": "JB07",
       "cohort": "expanded",
       "case": "JB07",
       "case_key": "JB07",
@@ -14200,6 +14366,7 @@
     },
     {
       "id": "hard:JB07:R1",
+      "task_id": "JB07",
       "cohort": "expanded",
       "case": "JB07",
       "case_key": "JB07",
@@ -14236,6 +14403,7 @@
     },
     {
       "id": "hard:JB08:full",
+      "task_id": "JB08",
       "cohort": "expanded",
       "case": "JB08",
       "case_key": "JB08",
@@ -14274,6 +14442,7 @@
     },
     {
       "id": "hard:JB08:R2",
+      "task_id": "JB08",
       "cohort": "expanded",
       "case": "JB08",
       "case_key": "JB08",
@@ -14314,6 +14483,7 @@
     },
     {
       "id": "hard:JB09:full",
+      "task_id": "JB09",
       "cohort": "expanded",
       "case": "JB09",
       "case_key": "JB09",
@@ -14351,6 +14521,7 @@
     },
     {
       "id": "hard:JB09:R3",
+      "task_id": "JB09",
       "cohort": "expanded",
       "case": "JB09",
       "case_key": "JB09",
@@ -14391,6 +14562,7 @@
     },
     {
       "id": "hard:JB10:full",
+      "task_id": "JB10",
       "cohort": "expanded",
       "case": "JB10",
       "case_key": "JB10",
@@ -14428,6 +14600,7 @@
     },
     {
       "id": "hard:JB10:R3",
+      "task_id": "JB10",
       "cohort": "expanded",
       "case": "JB10",
       "case_key": "JB10",
@@ -14468,6 +14641,7 @@
     },
     {
       "id": "hard:JB11:C1",
+      "task_id": "JB11",
       "cohort": "expanded",
       "case": "JB11",
       "case_key": "JB11",
@@ -14521,6 +14695,7 @@
     },
     {
       "id": "hard:JB11:R3",
+      "task_id": "JB11",
       "cohort": "expanded",
       "case": "JB11",
       "case_key": "JB11",
@@ -14560,6 +14735,7 @@
     },
     {
       "id": "hard:JB11:full",
+      "task_id": "JB11",
       "cohort": "expanded",
       "case": "JB11",
       "case_key": "JB11",
@@ -14596,6 +14772,7 @@
     },
     {
       "id": "hard:JB12:R1",
+      "task_id": "JB12",
       "cohort": "expanded",
       "case": "JB12",
       "case_key": "JB12",
@@ -14632,6 +14809,7 @@
     },
     {
       "id": "hard:JB12:R3",
+      "task_id": "JB12",
       "cohort": "expanded",
       "case": "JB12",
       "case_key": "JB12",
@@ -14670,6 +14848,7 @@
     },
     {
       "id": "hard:JB12:full",
+      "task_id": "JB12",
       "cohort": "expanded",
       "case": "JB12",
       "case_key": "JB12",
@@ -14705,6 +14884,7 @@
     },
     {
       "id": "hard:JB13:C1",
+      "task_id": "JB13",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14759,6 +14939,7 @@
     },
     {
       "id": "hard:JB13:M1",
+      "task_id": "JB13",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14812,6 +14993,7 @@
     },
     {
       "id": "hard:JB13:M1C1",
+      "task_id": "JB13",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14898,6 +15080,7 @@
     },
     {
       "id": "hard:JB13:R1",
+      "task_id": "JB13",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14936,6 +15119,7 @@
     },
     {
       "id": "hard:JB13:full",
+      "task_id": "JB13",
       "cohort": "expanded",
       "case": "JB13",
       "case_key": "JB13",
@@ -14973,6 +15157,7 @@
     },
     {
       "id": "hard:JB14:full",
+      "task_id": "JB14",
       "cohort": "expanded",
       "case": "JB14",
       "case_key": "JB14",
@@ -15009,6 +15194,7 @@
     },
     {
       "id": "hard:JB15:C1",
+      "task_id": "JB15",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15060,6 +15246,7 @@
     },
     {
       "id": "hard:JB15:M1",
+      "task_id": "JB15",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15110,6 +15297,7 @@
     },
     {
       "id": "hard:JB15:M3",
+      "task_id": "JB15",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15264,6 +15452,7 @@
     },
     {
       "id": "hard:JB15:full",
+      "task_id": "JB15",
       "cohort": "expanded",
       "case": "JB15",
       "case_key": "JB15",
@@ -15298,6 +15487,7 @@
     },
     {
       "id": "hard:JB16:R2",
+      "task_id": "JB16",
       "cohort": "expanded",
       "case": "JB16",
       "case_key": "JB16",
@@ -15339,6 +15529,7 @@
     },
     {
       "id": "hard:JB16:full",
+      "task_id": "JB16",
       "cohort": "expanded",
       "case": "JB16",
       "case_key": "JB16",
@@ -15378,6 +15569,7 @@
     },
     {
       "id": "hard:JB17:C1",
+      "task_id": "JB17",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15430,6 +15622,7 @@
     },
     {
       "id": "hard:JB17:M1",
+      "task_id": "JB17",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15481,6 +15674,7 @@
     },
     {
       "id": "hard:JB17:R3",
+      "task_id": "JB17",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15519,6 +15713,7 @@
     },
     {
       "id": "hard:JB17:full",
+      "task_id": "JB17",
       "cohort": "expanded",
       "case": "JB17",
       "case_key": "JB17",
@@ -15554,6 +15749,7 @@
     },
     {
       "id": "hard:JB18:R3",
+      "task_id": "JB18",
       "cohort": "expanded",
       "case": "JB18",
       "case_key": "JB18",
@@ -15593,6 +15789,7 @@
     },
     {
       "id": "hard:JB18:full",
+      "task_id": "JB18",
       "cohort": "expanded",
       "case": "JB18",
       "case_key": "JB18",
@@ -15629,6 +15826,7 @@
     },
     {
       "id": "hard:JB19:C1",
+      "task_id": "JB19",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15684,6 +15882,7 @@
     },
     {
       "id": "hard:JB19:C3",
+      "task_id": "JB19",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15843,6 +16042,7 @@
     },
     {
       "id": "hard:JB19:M1",
+      "task_id": "JB19",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15897,6 +16097,7 @@
     },
     {
       "id": "hard:JB19:M1C1",
+      "task_id": "JB19",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -15984,6 +16185,7 @@
     },
     {
       "id": "hard:JB19:R3",
+      "task_id": "JB19",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -16025,6 +16227,7 @@
     },
     {
       "id": "hard:JB19:full",
+      "task_id": "JB19",
       "cohort": "expanded",
       "case": "JB19",
       "case_key": "JB19",
@@ -16063,6 +16266,7 @@
     },
     {
       "id": "hard:JB20:full",
+      "task_id": "JB20",
       "cohort": "expanded",
       "case": "JB20",
       "case_key": "JB20",
@@ -16110,6 +16314,7 @@
     },
     {
       "id": "hard:JB21:R3",
+      "task_id": "JB21",
       "cohort": "expanded",
       "case": "JB21",
       "case_key": "JB21",
@@ -16149,6 +16354,7 @@
     },
     {
       "id": "hard:JB21:full",
+      "task_id": "JB21",
       "cohort": "expanded",
       "case": "JB21",
       "case_key": "JB21",
@@ -16185,6 +16391,7 @@
     },
     {
       "id": "hard:JB22:R3",
+      "task_id": "JB22",
       "cohort": "expanded",
       "case": "JB22",
       "case_key": "JB22",
@@ -16222,6 +16429,7 @@
     },
     {
       "id": "hard:JB22:full",
+      "task_id": "JB22",
       "cohort": "expanded",
       "case": "JB22",
       "case_key": "JB22",
@@ -16256,6 +16464,7 @@
     },
     {
       "id": "hard:JB23:C1",
+      "task_id": "JB23",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16309,6 +16518,7 @@
     },
     {
       "id": "hard:JB23:M1",
+      "task_id": "JB23",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16361,6 +16571,7 @@
     },
     {
       "id": "hard:JB23:M1C1",
+      "task_id": "JB23",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16444,6 +16655,7 @@
     },
     {
       "id": "hard:JB23:M2",
+      "task_id": "JB23",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16526,6 +16738,7 @@
     },
     {
       "id": "hard:JB23:full",
+      "task_id": "JB23",
       "cohort": "expanded",
       "case": "JB23",
       "case_key": "JB23",
@@ -16562,6 +16775,7 @@
     },
     {
       "id": "hard:JB24:R1",
+      "task_id": "JB24",
       "cohort": "expanded",
       "case": "JB24",
       "case_key": "JB24",
@@ -16601,6 +16815,7 @@
     },
     {
       "id": "hard:JB24:R2",
+      "task_id": "JB24",
       "cohort": "expanded",
       "case": "JB24",
       "case_key": "JB24",
@@ -16641,6 +16856,7 @@
     },
     {
       "id": "hard:JB24:full",
+      "task_id": "JB24",
       "cohort": "expanded",
       "case": "JB24",
       "case_key": "JB24",
@@ -16679,6 +16895,7 @@
     },
     {
       "id": "hard:JB25:R1",
+      "task_id": "JB25",
       "cohort": "expanded",
       "case": "JB25",
       "case_key": "JB25",
@@ -16717,6 +16934,7 @@
     },
     {
       "id": "hard:JB25:R3",
+      "task_id": "JB25",
       "cohort": "expanded",
       "case": "JB25",
       "case_key": "JB25",
@@ -16757,6 +16975,7 @@
     },
     {
       "id": "hard:JB25:full",
+      "task_id": "JB25",
       "cohort": "expanded",
       "case": "JB25",
       "case_key": "JB25",
@@ -16794,6 +17013,7 @@
     },
     {
       "id": "hard:JB26:R2",
+      "task_id": "JB26",
       "cohort": "expanded",
       "case": "JB26",
       "case_key": "JB26",
@@ -16834,6 +17054,7 @@
     },
     {
       "id": "hard:JB26:full",
+      "task_id": "JB26",
       "cohort": "expanded",
       "case": "JB26",
       "case_key": "JB26",
@@ -16872,6 +17093,7 @@
     },
     {
       "id": "hard:JB27:R3",
+      "task_id": "JB27",
       "cohort": "expanded",
       "case": "JB27",
       "case_key": "JB27",
@@ -16910,6 +17132,7 @@
     },
     {
       "id": "hard:JB27:full",
+      "task_id": "JB27",
       "cohort": "expanded",
       "case": "JB27",
       "case_key": "JB27",
@@ -16945,6 +17168,7 @@
     },
     {
       "id": "hard:JB28:R2",
+      "task_id": "JB28",
       "cohort": "expanded",
       "case": "JB28",
       "case_key": "JB28",
@@ -16982,6 +17206,7 @@
     },
     {
       "id": "hard:JB28:full",
+      "task_id": "JB28",
       "cohort": "expanded",
       "case": "JB28",
       "case_key": "JB28",
@@ -17017,6 +17242,7 @@
     },
     {
       "id": "hard:JB29:C1",
+      "task_id": "JB29",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17070,6 +17296,7 @@
     },
     {
       "id": "hard:JB29:M1",
+      "task_id": "JB29",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17122,6 +17349,7 @@
     },
     {
       "id": "hard:JB29:M1C1",
+      "task_id": "JB29",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17207,6 +17435,7 @@
     },
     {
       "id": "hard:JB29:M2",
+      "task_id": "JB29",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17291,6 +17520,7 @@
     },
     {
       "id": "hard:JB29:full",
+      "task_id": "JB29",
       "cohort": "expanded",
       "case": "JB29",
       "case_key": "JB29",
@@ -17327,6 +17557,7 @@
     },
     {
       "id": "hard:JB30:R3",
+      "task_id": "JB30",
       "cohort": "expanded",
       "case": "JB30",
       "case_key": "JB30",
@@ -17371,6 +17602,7 @@
     },
     {
       "id": "hard:JB30:full",
+      "task_id": "JB30",
       "cohort": "expanded",
       "case": "JB30",
       "case_key": "JB30",

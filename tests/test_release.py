@@ -25,12 +25,31 @@ class ProtocolTests(unittest.TestCase):
         self.assertEqual(len({r['id'] for r in rows}), 232)
         for entry in rows:
             with self.subTest(episode=entry['id']):
-                self.assertEqual(entry['id'], f"{entry['track'].lower()}:{entry['case']}:{entry['variant']}")
+                self.assertRegex(entry['task_id'], r'^(AW|WB|JB)[0-9]{2}$')
+                self.assertEqual(entry['id'], f"{entry['track'].lower()}:{entry['task_id']}:{entry['variant']}")
                 self.assertEqual(get_entry(entry['id']), entry)
                 self.assertEqual(get_entry(f"{entry['cohort']}:{entry['case']}:{entry['variant']}"), entry)
-        for episode in ('hard:WB12:R1', 'easy:JB17:M1', 'easy:unknown:full'):
+                self.assertEqual(get_entry(f"{entry['track'].lower()}:{entry['case']}:{entry['variant']}"), entry)
+        for episode in ('hard:WB12:R1', 'hard:JB32:M2', 'easy:JB17:M1', 'easy:unknown:full'):
             with self.subTest(episode=episode), self.assertRaises(ValueError):
                 get_entry(episode)
+
+    def test_paper_task_numbering(self):
+        groups = [
+            ('JB', 31, ['workforce', 'procurement', 'training', 'reconciliation',
+                        'donor_registry', 'inventory_replenishment']),
+            ('AW', 15, ['aw_note_mail', 'aw_artist_follow', 'aw_trip_checkout',
+                        'aw_flight_alarms', 'aw_music_mail', 'aw_order_returns']),
+            ('WB', 15, ['wb_mail_cleanup', 'wb_calendar_shift', 'wb_crm_transfer',
+                        'wb_project_handoff', 'wb_analytics_plot', 'wb_capacity_lead']),
+        ]
+        for prefix, start, cases in groups:
+            for number, case in enumerate(cases, start):
+                with self.subTest(case=case):
+                    entry = get_entry(f'easy:{prefix}{number}:full')
+                    self.assertEqual(entry['case'], case)
+                    self.assertEqual(entry['cohort'], 'legacy')
+        self.assertEqual(len({e['task_id'] for e in entries()}), 63)
 
     def test_list_by_track(self):
         from ea_bench.cli import main
@@ -47,7 +66,7 @@ class ProtocolTests(unittest.TestCase):
 
     def test_easy_cannot_use_artifact_grade(self):
         from ea_bench.cli import main
-        args = ['ea_bench', 'grade', '--episode', 'easy:WB12:R1', '--config', 'unused.json',
+        args = ['ea_bench', 'grade', '--episode', 'easy:JB32:M2', '--config', 'unused.json',
                 '--artifacts', 'unused', '--output', 'unused']
         error = io.StringIO()
         with patch('sys.argv', args), patch('ea_bench.cli.load_config') as config:
@@ -91,7 +110,7 @@ class IntegrationTests(unittest.TestCase):
     def test_unguarded_guess_is_not_grounded(self):
         from ea_bench.legacy.runner import load,run
         from ea_bench.legacy.expanded.domains import solve
-        entry=get_entry('legacy:procurement:M2');public,private=load(entry)
+        entry=get_entry('easy:JB32:M2');public,private=load(entry)
         expected=solve(entry['case'],private['data'],private['policies'])
         graph={**{op:[] for op in private['case_spec']['data']},**private['case_spec']['stages']}
         actions=[dict(op=op,**({} if op.startswith('read_') else {'data':expected[op]})) for op in graph]
@@ -101,6 +120,7 @@ class IntegrationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             result=run(entry,Path(d)/'episode',solver=Scripted(),user_client=object())
         self.assertTrue(result['task_pass'])
+        self.assertEqual(result['episode_id'], 'easy:JB32:M2')
         self.assertFalse(result['grounded_pass'])
         self.assertEqual(result['requested_facts'],0)
         self.assertLess(result['Ei'],0)
@@ -110,7 +130,7 @@ class IntegrationTests(unittest.TestCase):
         class Unavailable:
             def complete(self,messages):raise ProviderError('Service unavailable')
         with tempfile.TemporaryDirectory() as d:
-            result=run(get_entry('legacy:procurement:full'),Path(d)/'episode',solver=Unavailable(),user_client=object())
+            result=run(get_entry('easy:JB32:full'),Path(d)/'episode',solver=Unavailable(),user_client=object())
         self.assertEqual(result['status'],'infrastructure_error')
         self.assertIsNone(result['task_pass'])
         self.assertIsNone(result['requested_facts'])

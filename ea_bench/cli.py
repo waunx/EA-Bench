@@ -74,9 +74,9 @@ def main():
     args = parser.parse_args()
     if args.command == 'list':
         selected = [e for e in entries() if args.track is None or e['track'].lower() == args.track]
-        result = {'base_tasks': len({x['case_key'] for x in selected}), 'conditions':len(selected),
+        result = {'base_tasks': len({x['task_id'] for x in selected}), 'conditions':len(selected),
                   'tracks': dict(Counter(x['track'] for x in selected)),
-                  'episodes': [{k:x[k] for k in ('id','track','group')} for x in selected]}
+                  'episodes': [{k:x[k] for k in ('id','task_id','track','group')} for x in selected]}
     elif args.command == 'verify':
         for entry in entries():verify_entry(entry)
         result = {'status':'passed', 'conditions':len(entries())}
